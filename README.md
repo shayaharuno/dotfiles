@@ -1,10 +1,9 @@
-# Shaya's Dotfiles
+Personal configs, editors and desktop environment settings.
 
 <p align="center">
   <img src="fetch.png" />
 </p>
 
-Personal configs, editors and desktop environment settings.
 
 ## Installation
 1. Install [yay](https://github.com/Jguer/yay)
