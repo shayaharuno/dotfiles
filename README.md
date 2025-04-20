@@ -1,4 +1,4 @@
-Personal configs, editors and desktop environment settings.
+Collection of personal configs, desktop environment settings and editors preferences.
 
 <p align="center">
   <img src=".fetch.png" />
@@ -17,7 +17,7 @@ makepkg -si
 
 3. Install [stow](https://github.com/aspiers/stow/) ```yay -S stow```
 
-4. Clone repo and link dotfiles
+4. Clone repo and create symlinks
 ```sh
 cd .dotfiles
 stow .
