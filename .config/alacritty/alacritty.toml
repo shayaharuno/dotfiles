@@ -1,0 +1,205 @@
+
+[colors]
+draw_bold_text_with_bright_colors = false
+
+
+# Colors (Iris)
+
+# Default colors
+[colors.primary]
+background = '#1A1B25'
+foreground = '#e8e6e9'
+
+# Normal colors
+[colors.normal]
+black   = '#1A1B25'
+red     = '#d61d52'
+green   = '#48a842'
+yellow  = '#e1a51c'
+blue    = '#5556d3'
+magenta = '#8650d3'
+cyan    = '#52afb7'
+white   = '#9f9aa7'
+
+# Bright colors
+[colors.bright]
+black   = '#484867'
+red     = '#e15877'
+green   = '#71ab3a'
+yellow  = '#c6a642'
+blue    = '#6d6dc9'
+magenta = '#956ad3'
+cyan    = '#6ab6bd'
+white   = '#e8e6e9'
+
+
+
+
+#
+# # github Alacritty Colors
+#
+# # Default colors
+# [colors.primary]
+# background = '#ffffff'
+# foreground = '#24292f'
+#
+# # Normal colors
+# [colors.normal]
+# black   = '#24292e'
+# red     = '#d73a49'
+# green   = '#28a745'
+# yellow  = '#dbab09'
+# blue    = '#0366d6'
+# magenta = '#5a32a3'
+# cyan    = '#0598bc'
+# white   = '#6a737d'
+#
+# # Bright colors
+# [colors.bright]
+# black   = '#959da5'
+# red     = '#cb2431'
+# green   = '#22863a'
+# yellow  = '#b08800'
+# blue    = '#005cc5'
+# magenta = '#5a32a3'
+# cyan    = '#3192aa'
+# white   = '#d1d5da'
+#
+# [[colors.indexed_colors]]
+# index = 16
+# color = '#d18616'
+#
+# [[colors.indexed_colors]]
+# index = 17
+# color = '#cb2431'
+#
+#
+# [colors.hints]
+# start = { foreground = "#1d1f21", background = "#e9ff5e" }
+# end = { foreground = "#e9ff5e", background = "#1d1f21" }
+#
+# [colors.search]
+# matches = { foreground = "#000000", background = "#ffffff" }
+# focused_match = { foreground = "#ffffff", background = "#000000" }
+
+
+
+
+
+[env]
+#TERM = "alacritty:RGB"
+TERM = "xterm-256color"
+
+[font]
+size = 10.0
+
+[font.normal]
+#family = "MesloLGS NF"
+family = "JetBrainsMono Nerd Font"
+style = "Medium"
+
+[font.offset]
+x = 0
+y = 0
+
+[[keyboard.bindings]]
+action = "Paste"
+key = "V"
+mods = "Control|Shift"
+
+[[keyboard.bindings]]
+action = "Copy"
+key = "C"
+mods = "Control|Shift"
+
+[[keyboard.bindings]]
+action = "PasteSelection"
+key = "Insert"
+mods = "Shift"
+
+[[keyboard.bindings]]
+action = "ResetFontSize"
+key = "Key0"
+mods = "Control"
+
+[[keyboard.bindings]]
+action = "IncreaseFontSize"
+key = "Equals"
+mods = "Control"
+
+[[keyboard.bindings]]
+action = "IncreaseFontSize"
+key = "Plus"
+mods = "Control"
+
+[[keyboard.bindings]]
+action = "DecreaseFontSize"
+key = "Minus"
+mods = "Control"
+
+[[keyboard.bindings]]
+action = "ToggleFullscreen"
+key = "F11"
+mods = "None"
+
+[[keyboard.bindings]]
+action = "Paste"
+key = "Paste"
+mods = "None"
+
+[[keyboard.bindings]]
+action = "Copy"
+key = "Copy"
+mods = "None"
+
+[[keyboard.bindings]]
+action = "ClearLogNotice"
+key = "L"
+mods = "Control"
+
+[[keyboard.bindings]]
+chars = "\f"
+key = "L"
+mods = "Control"
+
+[[keyboard.bindings]]
+action = "ScrollPageUp"
+key = "PageUp"
+mode = "~Alt"
+mods = "None"
+
+[[keyboard.bindings]]
+action = "ScrollPageDown"
+key = "PageDown"
+mode = "~Alt"
+mods = "None"
+
+[[keyboard.bindings]]
+action = "ScrollToTop"
+key = "Home"
+mode = "~Alt"
+mods = "Shift"
+
+[[keyboard.bindings]]
+action = "ScrollToBottom"
+key = "End"
+mode = "~Alt"
+mods = "Shift"
+
+[scrolling]
+history = 5000
+
+[window]
+decorations = "Full"
+dynamic_padding = true
+dynamic_title = false
+opacity = 1.0
+title = "Alacritty"
+
+[window.class]
+general = "Alacritty"
+instance = "Alacritty"
+
+[window.padding]
+x = 0
+y = 0
