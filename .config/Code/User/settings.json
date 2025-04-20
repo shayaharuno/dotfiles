@@ -70,9 +70,7 @@
 
     // Theme Setup
     "window.autoDetectColorScheme": true,
-    "workbench.iconTheme": "file-icons",
     "workbench.preferredLightColorTheme": "Github Light Theme - Gray",
-    "workbench.preferredDarkColorTheme": "Kanagawa Wave",
     "workbench.activityBar.location": "top",
 
     
@@ -201,4 +199,6 @@
         }
     },
     "pixelbyte.love2d.path": "/usr/bin/love",
+    "workbench.iconTheme": "file-icons",
+    "workbench.preferredDarkColorTheme": "Kanagawa Wave",
 }
