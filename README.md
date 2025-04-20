@@ -1,7 +1,7 @@
 Personal configs, editors and desktop environment settings.
 
 <p align="center">
-  <img src="fetch.png" />
+  <img src=".fetch.png" />
 </p>
 
 
