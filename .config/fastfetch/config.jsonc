@@ -13,7 +13,7 @@
     },
     "modules": [
         {
-            "format": "───────────────  {#1}{user-name}@{host-name} ───────────────\n",
+            "format": "{#36} user         {#0}{user-name}@{host-name}",
             "type": "title"
         },
 
