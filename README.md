@@ -1,7 +1,7 @@
 Collection of personal configs, desktop environment settings and editors preferences.
 
 <p align="center">
-  <img src=".fetch.png" />
+  <img src=".misc/.fetch.png" />
 </p>
 
 
