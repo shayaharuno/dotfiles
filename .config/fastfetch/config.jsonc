@@ -1,0 +1,80 @@
+{
+    "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+    "logo": null,
+    "display": {
+        "separator": "  ",
+        "color": {
+            "separator": "cyan"
+        },
+        "constants": [
+            "",
+            ""
+        ]
+    },
+    "modules": [
+        {
+            "format": "───────────────  {#1}{user-name}@{host-name} ───────────────\n",
+            "type": "title"
+        },
+
+        {
+            //"format": "shaya@shaya82XV",
+            "key": "{$2}{#29}󰍹 host       ",
+            "type": "host"
+        },
+        {
+            "key": "{$2}{#29} kernel     ",
+            "type": "kernel"
+        },
+        {
+            "key": "{$2}{#29}󰅐 uptime     ",
+            "type": "uptime"
+        },
+        {
+            "key": "{$2}{#29}󰣇 distro     ",
+            "type": "os"
+        },
+        {
+            "key": "{$2}{#29} packages   ",
+            "type": "packages"
+        },
+        {
+            "key": "{$2}{#29} wm         ",
+            "type": "wm"
+        },
+        {
+            "key": "{$2}{#29} term       ",
+            "type": "terminal"
+        },
+        {
+            "key": "{$2}{#29} shell      ",
+            "type": "shell"
+        },
+        {
+            "key": "{$2}{#29}󰍛 cpu        ",
+            "type": "cpu"
+        },
+        {
+            "key": "{$2}{#29}󰍛 gpu        ",
+            "type": "gpu"
+        },
+        {
+            "key": "{$2}{#29}󰉉 disk       ",
+            "type": "disk",
+            "folders": "/"
+        },
+        {
+            "key": "{$2}{#29} memory     ",
+            "type": "memory"
+        },
+        {
+            "key": "{$2}{#29} colors     ",
+            "type": "colors",
+            "symbol": "square"
+        },
+        {
+            "format": "",
+            "type": "custom",
+        },
+    ]
+}
