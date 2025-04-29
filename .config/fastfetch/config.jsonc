@@ -13,7 +13,8 @@
     },
     "modules": [
         {
-            "format": "{#36} user         {#0}{user-name}@{host-name}",
+            "format": "{user-name}@{host-name}",
+            "key": "{$2}{#29} user       ",
             "type": "title"
         },
 
@@ -43,7 +44,7 @@
             "type": "wm"
         },
         {
-            "key": "{$2}{#29} term       ",
+            "key": "{$2}{#29} term       ",
             "type": "terminal"
         },
         {
@@ -59,7 +60,7 @@
             "type": "gpu"
         },
         {
-            "key": "{$2}{#29}󰉉 disk       ",
+            "key": "{$2}{#29} disk       ",
             "type": "disk",
             "folders": "/"
         },
@@ -71,10 +72,6 @@
             "key": "{$2}{#29} colors     ",
             "type": "colors",
             "symbol": "square"
-        },
-        {
-            "format": "",
-            "type": "custom",
         },
     ]
 }
