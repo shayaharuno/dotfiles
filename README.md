@@ -10,7 +10,7 @@ Collection of personal configs, desktop environment settings and editors prefere
 * Hardware cursor lag fix
 * Color theme adjustments to match [Kanagawa Wave](https://github.com/rebelot/kanagawa.nvim) palette, rather than Catppuccin
 * No Kvantum. QT and GTK applications styled by separate fine tuned themes via ngw-look and qt6ct-kde.
-* Single hypr.config file, no includes.
+* Single hypr.config file, includes are for sickfucks.
 * Other minor fixes and tweaks
 
 TODO: 
@@ -28,4 +28,4 @@ TODO:
 
 
 ## Installation
-TBD
+These dots are not meant to be used by someone else, since they're highly customized to my personal preferences, but if you still willing to try these, just clone repo and replace configs you're interested with.
