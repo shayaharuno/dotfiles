@@ -29,6 +29,8 @@ TODO:
 ## Installation
 These dots are not meant to be used by someone else, as they are highly customized to my personal preferences. However, if you are still willing to try, just clone the repo and replace the configs you are most interested in. Hopefully at some point there will be a shell installation script.
 
+Additionally, check [Post Install Check List](https://github.com/shayaharuno/dotfiles/blob/master/CHECKLIST.md) for clean Arch + Hyprland installation
+
 ## Keybindings
 * tofi - `ALT + SPACE`
 * term - `CTRL + BACKSLASH`
@@ -44,4 +46,4 @@ These dots are not meant to be used by someone else, as they are highly customiz
 * logout - `CTRL + F12`
 * kill waybar - `CTRL + SHIFT + F12`
 * scratchpad - `SUPER + S`
-* send to scratchpad - `SUPDER + SHIFT + S`
+* send to scratchpad - `SUPER + SHIFT + S`
