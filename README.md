@@ -11,13 +11,14 @@ Collection of personal configs, desktop environment settings and editors prefere
 * Color theme adjustments to match [Kanagawa Wave](https://github.com/rebelot/kanagawa.nvim) palette, rather than Catppuccin
 * No Kvantum. QT and GTK applications styled by separate fine tuned themes via ngw-look and qt6ct-kde.
 * Single hypr.config file, includes are for sickfucks.
-* Other minor fixes and tweaks
 
 TODO: 
 ```
 - Kanagawa Wave GTK theme
-- Waybar Keyboard Layout Widget
-- Waybar Power Button Widget
+- Find replacement for pavucontrol
+- LibreWolf theme
+- Waybar Power Button Widget (?)
+- Waybar Weather / Now Playing Widget (?)
 - Notifications daemon styling
 - Installation shell script
 ```
@@ -28,4 +29,4 @@ TODO:
 
 
 ## Installation
-These dots are not meant to be used by someone else, since they're highly customized to my personal preferences, but if you still willing to try these, just clone repo and replace configs you're interested with.
+These dots are not meant to be used by someone else, as they are highly customized to my personal preferences. However, if you are still willing to try, just clone the repo and replace the configs you are most interested in.
