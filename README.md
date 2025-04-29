@@ -7,8 +7,8 @@ Collection of personal configs, desktop environment settings and editors prefere
 * CONTROL as mainMod key (it's less freaky than use SUPER and break fingers all the time)
 * Hardware cursor lag fix
 * Color theme adjustments to match [Kanagawa Wave](https://github.com/rebelot/kanagawa.nvim) palette, rather than Catppuccin
-* No Kvantum. QT and GTK applications styled by separate fine tuned themes via ngw-look and qt6ct-kde
-* Single hypr.config file, includes are for sickfucks
+* No Kvantum. QT and GTK applications styled by separate fine tuned themes via `ngw-look` and `qt6ct-kde`
+* No includes, single `hypr.config` file
 
 TODO: 
 ```
@@ -27,21 +27,21 @@ TODO:
 
 
 ## Installation
-These dots are not meant to be used by someone else, as they are highly customized to my personal preferences. However, if you are still willing to try, just clone the repo and replace the configs you are most interested in.
+These dots are not meant to be used by someone else, as they are highly customized to my personal preferences. However, if you are still willing to try, just clone the repo and replace the configs you are most interested in. Hopefully at some point there will be a shell installation script.
 
 ## Keybindings
-* `ALT + SPACE` - tofi
-* `CTRL + BACKSLASH` - terminal
-* `CTRL + Q` - kill active
-* `CTRL + B` - browser
-* `CTRL + O` - obsidian
-* `CTRL + ALT + DEL` - wlogout menu
-* `SHIFT + ALT` - switch keyboard layout
-* `CTRL + HOME` - turn on/off all keybindings
-* `F(1-4)` or `CTRL + 1-4` - select workspace 1-4
-* `CTRL + SHIFT + Arrow Left || Arrow Right` - switch workspace left / right
-* `CTRL + SHIFT + 1-4` - silently send to workspace 1-4
-* `CTRL + F12` - logout
-* `CTRL + SHIFT + F12` - kill waybar
-* `SUPER + S` - scratchpad
-* `SUPDER + SHIFT + S` - send to scratchpad
+* tofi - `ALT + SPACE`
+* term - `CTRL + BACKSLASH`
+* kill active - `CTRL + Q`
+* browser - `CTRL + B`
+* obsidian - `CTRL + O`
+* wlogout - `CTRL + ALT + DEL`
+* keyboard layout switch - `SHIFT + ALT`
+* turn on/off all keybindings - `CTRL + HOME`
+* select workspace 1-4 - `F1-F4` or `CTRL + 1-4`
+* switch workspace left / right - `CTRL + SHIFT + Arrow Left || Arrow Right`
+* silently send to workspace 1-4 - `CTRL + SHIFT + 1-4`
+* logout - `CTRL + F12`
+* kill waybar - `CTRL + SHIFT + F12`
+* scratchpad - `SUPER + S`
+* send to scratchpad - `SUPDER + SHIFT + S`
