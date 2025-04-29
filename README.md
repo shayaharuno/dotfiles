@@ -5,11 +5,12 @@ Collection of personal configs, desktop environment settings and editors prefere
 * [split monitor workspaces](https://github.com/Duckonaut/split-monitor-workspaces) plugin to assign distinguish workspaces (four) per display
 * F1-F4 to switch between workspaces
 * CONTROL as mainMod key (it's less freaky than use SUPER and break fingers all the time)
-* CONTROL + Digits || CONTROL + SHIFT + Arrows as an alternative method to switch between workspaces
-* SUPER + S to use scratchpad
+* CONTROL + Digits || CONTROL + SHIFT + Arrows as an alternative way to switch between workspaces
+* SUPER + S to open scratchpad
 * Hardware cursor lag fix
 * Color theme adjustments to match [Kanagawa Wave](https://github.com/rebelot/kanagawa.nvim) palette, rather than Catppuccin
-* Kanagwa Wave theme for KDE applications (qt6ct-kde)
+* No Kvantum. QT and GTK applications styled by separate fine tuned themes via ngw-look and qt6ct-kde.
+* Single hypr.config file, no includes.
 * Other minor fixes and tweaks
 
 TODO: 
@@ -18,6 +19,7 @@ TODO:
 - Waybar Keyboard Layout Widget
 - Waybar Power Button Widget
 - Notifications daemon styling
+- Installation shell script
 ```
 
 <p align="center">
@@ -26,11 +28,4 @@ TODO:
 
 
 ## Installation
-1. Install [stow](https://github.com/aspiers/stow/) ```yay -S stow```
-
-2. Clone repo and create symlinks
-```sh
-cd .dotfiles
-stow .
-```
-In case of conflicts with already existing configs, use ```stow --adopt .```
+TBD
