@@ -19,6 +19,8 @@ TODO:
 * Waybar Weather / Now Playing Widget (?)
 * Notifications daemon styling (perhaps use mako instead of dunst).
 * Installation shell script.
+* Minimal gaps between windows.
+* Non-distracting, almost instant animations.
 ```
 
 <p align="center">
