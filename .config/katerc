@@ -17,6 +17,8 @@ Mouse forward button action=0
 Open New Tab To The Right Of Current=false
 Output History Limit=100
 Output With Date=false
+Quickopen Filter Mode=0
+Quickopen List Mode=true
 Recent File List Entry Count=10
 Restore Window Configuration=true
 SDI Mode=false
@@ -39,10 +41,13 @@ Tab Double Click New Document=true
 Tab Middle Click Close Document=true
 Tabbar Tab Limit=0
 
+[KDE]
+widgetStyle=qt6ct-style
+
 [KTextEditor Renderer]
 Animate Bracket Matching=false
-Auto Color Theme Selection=false
-Color Theme=Breeze Kanagawa
+Auto Color Theme Selection=true
+Color Theme=Breeze Dark
 Line Height Multiplier=1
 Show Indentation Lines=false
 Show Whole Bracket Expression=false
@@ -122,6 +127,7 @@ SetEditor=false
 
 [MainWindow]
 2 screens: Window-Maximized=true
+ToolBarsMovable=Enabled
 
 [UiSettings]
 ColorScheme=Kanagawa Wave

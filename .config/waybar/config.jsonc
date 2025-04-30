@@ -11,14 +11,15 @@ TODO:
     "passthrough": false,
     "gtk-layer-shell": true,
     "reload_style_on_change": true,
-    "height": 0,
+    "height": 24,
     "modules-left": [
-        "clock"
+        "custom/tofi",
+        "clock",
+        "tray"
         //"hyprland/workspaces"
     ],
     "modules-center": ["hyprland/workspaces"], //"hyprland/window"
     "modules-right": [
-        "tray",
         "memory",
         "cpu",
         "network",
@@ -27,41 +28,53 @@ TODO:
         "backlight",
         "pulseaudio",
         "pulseaudio#microphone"
+        //"custom/power"
     ],
 
-    "hyprland/window": {
-        "format": "󰣇 {}"
+
+// ┳┳┓┏┓┳┓┳┳┓ ┏┓┏┓
+// ┃┃┃┃┃┃┃┃┃┃ ┣ ┗┓
+// ┛ ┗┗┛┻┛┗┛┗┛┗┛┗┛
+
+    // "hyprland/window": {
+    //     "format": "󰣇 {}"
+    // },
+
+    "custom/tofi": {
+        "format": "󰣇",
+        "tooltip": false,
+        //"on-click-right": "nwg-drawer",
+        //"on-click": "wofi --show run",
+        "on-click": "tofi-drun -c ~/.config/tofi/configA --drun-launch=true",
+        //"on-click-middle": "pkill -9 wofi"
     },
 
     "hyprland/workspaces": {
         "format": "{icon}",
         "format-icons": {
-        "urgent": "",
-        "active": "", // focused workspace on current monitor
-        "visible": "", // focused workspace on other monitors
-        "default": "", //has content but not focused
-        "empty": "" // persistent (created by this plugin)
+        "urgent": "",
+        "active": "", // focused workspace on current monitor
+        "visible": "", // focused workspace on other monitors
+        "default": "", //has content but not focused
+        "empty": "󰢤" // persistent (created by this plugin)
         },
         "all-outputs": false // recommended
     },
 
     "hyprland/language": {
-
         "format": "{}",
-
         "format-ru": "RU",
-
         "format-en": "US",
-
     },
 
     "tray": {
+        "format": "{}",
         "icon-size": 16,
-        "spacing": 10
+        "spacing": 6,
     },
 
     "clock": {
-        "format": "󰣇  {:%A    %B-%d-%Y    %I:%M:%S %p}",
+        "format": "{:%A    %B-%d-%Y    %I:%M:%S %p}",
         "interval": 1,
         "rotate": 0,
         "tooltip-format": "<tt>{calendar}</tt>",
@@ -85,51 +98,49 @@ TODO:
         "format-icons": ["󰃞", "󰃟", "󰃠"],
         "on-scroll-up": "brightnessctl set 10%+",
         "on-scroll-down": "brightnessctl set 10%-",
-        "min-length": 6
     },
 
     "battery": {
+        "interval": 2,
         "states": {
             "good": 95,
-            "warning": 30,
-            "critical": 20
+            "warning": 35,
+            "critical": 15
         },
         "format": "{icon} {capacity}%",
-        "format-charging": " {capacity}%",
-        "format-plugged": "{icon} {capacity}%",
-        "format-alt": "{time} {icon}",
-        "format-icons": ["󰂃", "󰁺", "󰁻", "󰁼", "󰁽", "󰁾", "󰁿", "󰂀", "󰂁", "󰂂", "󰁹"]
+        "format-charging": "󰂅 {capacity}%",
+        "format-plugged": " {capacity}%",
+        "format-icons": [
+            "󰂎",
+            "󰁻",
+            "󰁾",
+            "󰂀",
+            "󰁹"
+        ]
     },
-
-
 
     "pulseaudio": {
-        "format": "{icon}  {volume}%",
-        "tooltip": false,
+        "scroll-step": 10,
+        "format": "{icon} {volume}%",
+        "format-bluetooth": "{volume}% {icon}",
+        "format-bluetooth-muted": " {icon}",
         "format-muted": "  Muted",
-        "on-click": "wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle",
-        "on-scroll-up": "wpctl set-volume -l 1 @DEFAULT_AUDIO_SINK@ 5%+",
-        "on-scroll-down": "wpctl set-volume @DEFAULT_AUDIO_SINK@ 5%-",
-        "scroll-step": 5,
+        "format-source": "",
+        "format-source-muted": "",
         "format-icons": {
-            "headphone": "",
-            "hands-free": "",
-            "headset": "",
-            "phone": "",
-            "portable": "",
-            "car": "",
-            "default": ["","", "", ""]
-        }
+            "default": ["", "",""," "]
+        },
+        "on-click-right": "pavucontrol",
+        "on-click": "wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle",
     },
-
     "pulseaudio#microphone": {
         "format": "{format_source}",
         "format-source": " {volume}%",
         "format-source-muted": "  Muted",
         "on-click": "wpctl set-mute @DEFAULT_AUDIO_SOURCE@ toggle",
-        "on-scroll-up": "wpctl set-volume -l 1 @DEFAULT_AUDIO_SOURCE@ 5%+",
-        "on-scroll-down": "wpctl set-volume -l 1 @DEFAULT_AUDIO_SOURCE@ 5%-",
-        "scroll-step": 5
+        "on-scroll-up": "wpctl set-volume -l 1 @DEFAULT_AUDIO_SOURCE@ 10%+",
+        "on-scroll-down": "wpctl set-volume -l 1 @DEFAULT_AUDIO_SOURCE@ 10%-",
+        "scroll-step": 10
     },
 
     "memory": {
@@ -139,11 +150,11 @@ TODO:
             "m": 30 // medium
         },
         "interval": 10,
-        "format": "󰾆 {used}GB",
+        "format-alt": "󰾆 {used}GB",
         "format-m": "󰾅 {used}GB",
         "format-h": "󰓅 {used}GB",
         "format-c": " {used}GB",
-        "format-alt": "󰾆 {percentage}%",
+        "format": "󰾆 {percentage}%",
         "max-length": 10,
         "tooltip": true,
         "tooltip-format": "󰾆 {percentage}%\n {used:0.1f}GB/{total:0.1f}GB"
@@ -166,5 +177,11 @@ TODO:
         "tooltip-format-disconnected": "Disconnected",
         "format-alt": "<span foreground='#99ffdd'> {bandwidthDownBytes}</span> <span foreground='#ffcc66'> {bandwidthUpBytes}</span>",
         "interval": 2
-    }
+    },
+
+    "custom/power": {
+        "format": " 󰐥 ",
+        "tooltip": false,
+        "on-click": "wlogout"
+    },
 }
