@@ -1,4 +1,4 @@
-# 🌊 Kanagawa Hypr Dots 🌊
+# 🌊 kanagawa hypr dotfiles
 Collection of personal configs, desktop environment settings and editors preferences. Mostly based on [Simple Hyprland](https://github.com/gaurav23b/simple-hyprland/tree/879dba81c84134072826a21453c15e553d03da2d) and CachyOS defaults.
 
 ##### Key Changes
