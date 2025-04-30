@@ -11,6 +11,7 @@ Collection of personal configs, desktop environment settings and editors prefere
 * No wlogout
 * Minimal gaps between windows.
 * Non-distracting, almost instant animations.
+* Rewritten waybar `config` and `style.css`.
 
 TODO: 
 ```
@@ -19,7 +20,7 @@ TODO:
 * Find a replacement for pavucontrol.
 * LibreWolf theme.
 * Waybar Weather / Now Playing Widget (?)
-* Notifications daemon styling (perhaps use mako instead of dunst).
+* Notifications daemon styling (consider mako instead of dunst).
 * Installation shell script.
 ```
 
