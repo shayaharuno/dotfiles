@@ -9,6 +9,8 @@ Collection of personal configs, desktop environment settings and editors prefere
 * No Kvantum. QT and GTK applications styled by separate fine tuned themes via `ngw-look` and `qt6ct-kde`
 * No includes, single `hypr.config` file
 * No wlogout
+* Minimal gaps between windows.
+* Non-distracting, almost instant animations.
 
 TODO: 
 ```
@@ -19,8 +21,6 @@ TODO:
 * Waybar Weather / Now Playing Widget (?)
 * Notifications daemon styling (perhaps use mako instead of dunst).
 * Installation shell script.
-* Minimal gaps between windows.
-* Non-distracting, almost instant animations.
 ```
 
 <p align="center">
