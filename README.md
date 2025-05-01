@@ -1,11 +1,11 @@
-# 🌊 kanagawa hypr dots
+## hypr dots
 Collection of personal configs, desktop environment settings and editors preferences. Mostly based on [Simple Hyprland](https://github.com/gaurav23b/simple-hyprland/tree/879dba81c84134072826a21453c15e553d03da2d) and CachyOS defaults.
 
 ##### Key Changes
 * [split monitor workspaces](https://github.com/Duckonaut/split-monitor-workspaces) plugin to assign distinct workspaces per monitor
 * CONTROL as the mainMod key (it's less freaky than using SUPER and straining fingers all the time)
 * Hardware cursor lag fix
-* Color theme adjustments to match [Kanagawa Dragon](https://github.com/rebelot/kanagawa.nvim) palette, rather than Catppuccin
+* Color theme adjustments to match [Kanagawa Dragon](https://github.com/rebelot/kanagawa.nvim) palette
 * No Kvantum. QT and GTK applications styled by separate fine tuned themes via `nwg-look` and `qt6ct-kde`
 * No includes, single `hypr.config` file
 * No gaps and borders
