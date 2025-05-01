@@ -15,15 +15,18 @@ TODO:
     "modules-left": [
         "custom/tofi",
         "clock",
+        "custom/weather",
         "tray"
         //"hyprland/workspaces"
     ],
     "modules-center": ["hyprland/workspaces"], //"hyprland/window"
     "modules-right": [
+        "mpris",
+        "hyprland/language",
+        "bluetooth",
+        "network",
         "memory",
         "cpu",
-        "network",
-        "hyprland/language",
         "battery",
         "backlight",
         "pulseaudio",
@@ -45,7 +48,7 @@ TODO:
         "tooltip": false,
         //"on-click-right": "nwg-drawer",
         //"on-click": "wofi --show run",
-        "on-click": "tofi-drun -c ~/.config/tofi/configA --drun-launch=true",
+        "on-click": "tofi-drun -c ~/.config/tofi/configV --drun-launch=true",
         //"on-click-middle": "pkill -9 wofi"
     },
 
@@ -61,10 +64,38 @@ TODO:
         "all-outputs": false // recommended
     },
 
+    "custom/weather": {
+        "format": "{}°",
+        "tooltip": true,
+        "interval": 3600,
+        "exec": "wttrbar",
+        "return-type": "json"
+    },
+
+    "mpris": {
+        "format": "{player_icon} {dynamic}",
+        "format-paused": "{status_icon} {dynamic}",
+        "player-icons": {
+            "default": "▶",
+            "mpv": "🎵",
+            "ncspot": "  ",
+            "spotify": "  ",
+            "firefox": "󰈹  "
+        },
+        "status-icons": {
+            "paused": "⏸ "
+        },
+        "dynamic-order": ["title", "artist"],
+        "artist-len": 20,
+        "title-len": 20,
+        //"ignored-players": ["firefox"]
+    },
+
+
     "hyprland/language": {
         "format": "{}",
         "format-ru": "RU",
-        "format-en": "US",
+        "format-en": "US"
     },
 
     "tray": {
@@ -167,6 +198,16 @@ TODO:
         "format-icons": ["▁", "▂", "▃", "▄", "▅", "▆", "▇", "█"]
     },
 
+    "bluetooth": {
+        // "controller": "controller1", // specify the alias of the controller if there are more than 1 on the system
+        "format": "󰂯",
+        "format-disabled": "󰂲", // an empty format will hide the module
+        "tooltip-format": "{controller_alias}\t{controller_address}",
+        "tooltip-format-connected": "{controller_alias}\t{controller_address}\n\n{device_enumerate}",
+        "tooltip-format-enumerate-connected": "{device_alias}\t{device_address}",
+        "on-click": "blueman-manager"
+    },
+
     "network": {
         "tooltip": true,
         "format-wifi": " ",
@@ -175,7 +216,7 @@ TODO:
         "format-linked": "󰈀 {ifname} (No IP)",
         "format-disconnected": "󰖪 ",
         "tooltip-format-disconnected": "Disconnected",
-        "format-alt": "<span foreground='#99ffdd'> {bandwidthDownBytes}</span> <span foreground='#ffcc66'> {bandwidthUpBytes}</span>",
+        "format-alt": "<span foreground='#99ffdd'>   {bandwidthDownBytes}</span> <span foreground='#ffcc66'>      {bandwidthUpBytes}</span>",
         "interval": 2
     },
 

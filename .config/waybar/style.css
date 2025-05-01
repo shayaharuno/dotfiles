@@ -62,7 +62,7 @@ window#waybar {
     background-color: @C_PANEL;
     color: @C_TEXT_GRAY;
     margin: 0 3 0 3;
-    padding: 0 6 0 6;
+    padding: 1 8 0 8;
 }
 
 #clock {
@@ -74,15 +74,15 @@ window#waybar {
 #custom-power {
     background-color: @C_PANEL;
     color: @C_TEXT_GRAY;
-    font-size: 19;
-    padding: 0 3 0 3;
+    font-size: 17;
+    padding: 2 3 0 3;
     margin: 0 0 0 0;
 }
 
 #pulseaudio {
     background-color: @C_PANEL;
     color: @C_TEXT_GRAY;
-    padding: 0 4 0 6;
+    padding: 2 4 0 6;
     margin: 0 0 0 0;
 }
 
@@ -90,20 +90,20 @@ window#waybar {
     background-color: @C_PANEL;
     color: @C_TEXT_GRAY;
     padding: 0 0 0 12;
-    margin: 0 0 0 0;
+    margin: 2 0 0 0;
 }
 
 #backlight {
     background-color: @C_PANEL;
     color: @C_TEXT_GRAY;
     padding: 0 12 0 12;
-    margin: 0 0 0 0;
+    margin: 2 0 0 0;
 }
 
 #battery {
     background-color: @C_PANEL;
     color: @C_TEXT_GRAY;
-    padding: 0 6 0 12;
+    padding: 2 6 0 12;
     margin: 0 0 0 0;
 }
 
@@ -111,29 +111,51 @@ window#waybar {
     background-color: @C_PANEL;
     color: @C_TEXT_GRAY;
     font-weight: 700;
-    font-size: 13;
-    padding: 1 3 0 12;
+    font-size: 12;
+    padding: 4 6 0 12;
+    margin: 0 0 0 0;
+}
+
+#bluetooth {
+    background-color: @C_PANEL;
+    font-size: 16;
+    color: @C_TEXT_GRAY;
+    padding: 2 8 0 11;
     margin: 0 0 0 0;
 }
 
 #network {
     background-color: @C_PANEL;
     color: @C_TEXT_GRAY;
-    padding: 0 4 0 10;
+    padding: 2 6 0 10;
     margin: 0 0 0 0;
 }
 
 #cpu {
     background-color: @C_PANEL;
     color: @C_TEXT_GRAY;
-    padding: 0 6 0 10;
+    padding: 2 6 0 10;
     margin: 0 0 0 0;
 }
 
 #memory {
     background-color: @C_PANEL;
     color: @C_TEXT_GRAY;
-    padding: 0 6 0 12;
+    padding: 2 6 0 12;
+    margin: 0 0 0 0;
+}
+
+#mpris {
+    background-color: @C_PANEL;
+    color: @C_TEXT_GRAY;
+    padding: 3 6 0 12;
+    margin: 0 0 0 0;
+}
+
+#custom-weather {
+    background-color: @C_PANEL;
+    color: @C_TEXT_GRAY;
+    padding: 0 0 0 0;
     margin: 0 0 0 0;
 }
 
