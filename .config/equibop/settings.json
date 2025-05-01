@@ -1,0 +1,13 @@
+{
+    "discordBranch": "stable",
+    "tray": true,
+    "minimizeToTray": true,
+    "arRPC": true,
+    "trayColor": "",
+    "trayMainOverride": true,
+    "splashColor": "rgb(239, 239, 240)",
+    "splashBackground": "rgb(32, 32, 36)",
+    "trayColorType": "default",
+    "enableSplashScreen": false,
+    "splashAnimationPath": "/home/shaya/Pictures/Icons/Loading.png"
+}

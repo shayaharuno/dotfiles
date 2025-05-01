@@ -4,14 +4,14 @@ TODO:
 */
 
 {
-    "layer": "top",
-    "position": "top",
+    "layer": "bottom",
+    "position": "bottom",
     "mode": "dock",
     "exclusive": true,
     "passthrough": false,
     "gtk-layer-shell": true,
     "reload_style_on_change": true,
-    "height": 24,
+    "height": 0,
     "modules-left": [
         "custom/tofi",
         "clock",
@@ -27,8 +27,8 @@ TODO:
         "battery",
         "backlight",
         "pulseaudio",
-        "pulseaudio#microphone"
-        //"custom/power"
+        "pulseaudio#microphone",
+        "custom/power"
     ],
 
 
@@ -52,11 +52,11 @@ TODO:
     "hyprland/workspaces": {
         "format": "{icon}",
         "format-icons": {
-        "urgent": "",
+        "urgent": "󱍥",
         "active": "", // focused workspace on current monitor
-        "visible": "", // focused workspace on other monitors
-        "default": "", //has content but not focused
-        "empty": "󰢤" // persistent (created by this plugin)
+        "visible": "", // focused workspace on other monitors
+        "default": "", //has content but not focused
+        "empty": "" // persistent (created by this plugin)
         },
         "all-outputs": false // recommended
     },
@@ -74,7 +74,7 @@ TODO:
     },
 
     "clock": {
-        "format": "{:%A    %B-%d-%Y    %I:%M:%S %p}",
+        "format": "{:%A     󰃭   %B %d    󱑎   %I:%M %p}",
         "interval": 1,
         "rotate": 0,
         "tooltip-format": "<tt>{calendar}</tt>",
@@ -95,7 +95,7 @@ TODO:
     "backlight": {
         "device": "intel_backlight",
         "format": "{icon} {percent}%",
-        "format-icons": ["󰃞", "󰃟", "󰃠"],
+        "format-icons": ["󰃞 ", "󰃟 ", "󰃠 "],
         "on-scroll-up": "brightnessctl set 10%+",
         "on-scroll-down": "brightnessctl set 10%-",
     },
@@ -124,11 +124,11 @@ TODO:
         "format": "{icon} {volume}%",
         "format-bluetooth": "{volume}% {icon}",
         "format-bluetooth-muted": " {icon}",
-        "format-muted": "  Muted",
+        "format-muted": "   Muted",
         "format-source": "",
         "format-source-muted": "",
         "format-icons": {
-            "default": ["", "",""," "]
+            "default": [" ", " "," ","  "]
         },
         "on-click-right": "pavucontrol",
         "on-click": "wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle",
@@ -136,7 +136,7 @@ TODO:
     "pulseaudio#microphone": {
         "format": "{format_source}",
         "format-source": " {volume}%",
-        "format-source-muted": "  Muted",
+        "format-source-muted": "   Muted",
         "on-click": "wpctl set-mute @DEFAULT_AUDIO_SOURCE@ toggle",
         "on-scroll-up": "wpctl set-volume -l 1 @DEFAULT_AUDIO_SOURCE@ 10%+",
         "on-scroll-down": "wpctl set-volume -l 1 @DEFAULT_AUDIO_SOURCE@ 10%-",
@@ -150,19 +150,19 @@ TODO:
             "m": 30 // medium
         },
         "interval": 10,
-        "format-alt": "󰾆 {used}GB",
-        "format-m": "󰾅 {used}GB",
-        "format-h": "󰓅 {used}GB",
-        "format-c": " {used}GB",
-        "format": "󰾆 {percentage}%",
+        "format-alt": "󰾆  {used}GB",
+        "format-m": "󰾅  {used}GB",
+        "format-h": "󰓅  {used}GB",
+        "format-c": "  {used}GB",
+        "format": "󰾆  {percentage}%",
         "max-length": 10,
         "tooltip": true,
-        "tooltip-format": "󰾆 {percentage}%\n {used:0.1f}GB/{total:0.1f}GB"
+        "tooltip-format": "󰾆  {percentage}%\n  {used:0.1f}GB/{total:0.1f}GB"
     },
 
     "cpu": {
         "interval": 10,
-        "format": "󰍛 {usage}%",
+        "format": "󰍛  {usage}%",
         "format-alt": "{icon0}{icon1}{icon2}{icon3}",
         "format-icons": ["▁", "▂", "▃", "▄", "▅", "▆", "▇", "█"]
     },

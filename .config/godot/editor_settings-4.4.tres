@@ -4,20 +4,20 @@
 keycode = 4194326
 
 [resource]
+interface/editor/main_font_size = 13
 interface/editor/main_font = "/home/shaya/.config/godot/Inter_18pt-Regular.ttf"
 interface/editor/main_font_bold = "/home/shaya/.config/godot/Inter_18pt-Bold.ttf"
 interface/theme/preset = "Custom"
-interface/theme/spacing_preset = "Custom"
-interface/theme/base_color = Color(0.101961, 0.105882, 0.141176, 1)
-interface/theme/accent_color = Color(0.44, 0.73, 0.98, 1)
+interface/theme/base_color = Color(0.110298, 0.110298, 0.110298, 1)
+interface/theme/accent_color = Color(0.901961, 0.764706, 0.517647, 1)
 interface/theme/contrast = 0.3
 interface/theme/icon_saturation = 1.5
 interface/theme/corner_radius = 0
-interface/theme/base_spacing = 0
-interface/theme/additional_spacing = 2
 interface/theme/custom_theme = "/home/shaya/.config/godot/minimal_theme.tres"
 filesystem/file_dialog/show_hidden_files = true
+filesystem/import/blender/blender_path = "/usr/bin/blender"
 editors/3d_gizmos/gizmo_settings/bone_axis_length = 0.1
+run/platforms/linuxbsd/prefer_wayland = true
 export/android/debug_keystore = "/home/shaya/.local/share/godot/keystores/debug.keystore"
 export/android/debug_keystore_pass = "android"
 export/android/java_sdk_path = ""

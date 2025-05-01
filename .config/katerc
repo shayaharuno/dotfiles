@@ -23,7 +23,7 @@ Recent File List Entry Count=10
 Restore Window Configuration=true
 SDI Mode=false
 Save Meta Infos=true
-Show Full Path in Title=false
+Show Full Path in Title=true
 Show Menu Bar=true
 Show Status Bar=true
 Show Symbol In Navigation Bar=true
@@ -147,7 +147,7 @@ viewShade=211,190,222
 AllowedServerCommandLines=
 AutoHover=true
 AutoImport=true
-BlockedServerCommandLines=
+BlockedServerCommandLines=/usr/bin/clangd -log=error --background-index --limit-results=500 --completion-style=bundled
 CompletionDocumentation=true
 CompletionParens=true
 Diagnostics=true

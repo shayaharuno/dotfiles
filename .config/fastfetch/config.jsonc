@@ -4,7 +4,7 @@
     "display": {
         "separator": "  ",
         "color": {
-            "separator": "cyan"
+            "separator": "white"
         },
         "constants": [
             "",
@@ -14,63 +14,63 @@
     "modules": [
         {
             "format": "{user-name}@{host-name}",
-            "key": "{$2}{#29} user       ",
+            "key": "{$2}{#37} user    ",
             "type": "title"
         },
         {
             //"format": "shaya@shaya82XV",
-            "key": "{$2}{#29}󰍹 host       ",
+            "key": "{$2}{#37}󰨇 host    ",
             "type": "host"
         },
         {
-            "key": "{$2}{#29} kernel     ",
+            "key": "{$2}{#37} kernel  ",
             "type": "kernel"
         },
         {
-            "key": "{$2}{#29}󰅐 uptime     ",
+            "key": "{$2}{#37}󱑀 uptime  ",
             "type": "uptime"
         },
         {
-            "key": "{$2}{#29}󰣇 distro     ",
+            "key": "{$2}{#37}󰣇 distro  ",
             "type": "os"
         },
         {
-            "key": "{$2}{#29} packages   ",
+            "key": "{$2}{#37} pckgs   ",
             "type": "packages"
         },
         {
-            "key": "{$2}{#29} wm         ",
+            "key": "{$2}{#37} wm      ",
             "type": "wm"
         },
         {
-            "key": "{$2}{#29} term       ",
+            "key": "{$2}{#37} term    ",
             "type": "terminal"
         },
         {
-            "key": "{$2}{#29} shell      ",
+            "key": "{$2}{#37} shell   ",
             "type": "shell"
         },
         {
-            "key": "{$2}{#29}󰍛 cpu        ",
+            "key": "{$2}{#37} cpu     ",
             "type": "cpu"
         },
         {
-            "key": "{$2}{#29}󰍛 gpu        ",
+            "key": "{$2}{#37} gpu     ",
             "type": "gpu"
         },
         {
-            "key": "{$2}{#29} disk       ",
+            "key": "{$2}{#37} disk    ",
             "type": "disk",
             "folders": "/"
         },
         {
-            "key": "{$2}{#29} memory     ",
+            "key": "{$2}{#37} memory  ",
             "type": "memory"
         },
         {
-            "key": "{$2}{#29} colors     ",
+            "key": "{$2}{#37} colors  ",
             "type": "colors",
-            "symbol": "square"
+            "symbol": "circle"
         },
     ]
 }
