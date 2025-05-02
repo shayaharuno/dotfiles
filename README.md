@@ -1,8 +1,8 @@
-## hypr dots
+## dotfiles
 
-##### Overview
+## Overview
 * [split monitor workspaces](https://github.com/Duckonaut/split-monitor-workspaces) plugin to assign distinct workspaces per monitor
-* CONTROL as the mainMod key (it's less freaky than using SUPER and straining fingers all the time)
+* CTRL as the mainMod key (no interference with common keybinds such as CTRL+S, CTRL+V, etc)
 * Hardware cursor lag fix
 * Color theme adjustments to match [Kanagawa Dragon](https://github.com/rebelot/kanagawa.nvim) palette
 * No Kvantum. QT and GTK applications styled by separate fine tuned themes via `nwg-look` and `qt6ct-kde`
@@ -11,11 +11,11 @@
 * Non-distracting, almost instant animations
 * Sarasa UI and JetBrainsMono as primary ui and monospace fonts
 
-TODO: 
+## TODO
 ```
 * Fix brightnessctl to control external monitor brightness levels.
-* Waybar Weather / Now Playing Widget (?)
 * Notifications daemon styling (consider mako instead of dunst).
+* Installation shell script
 ```
 
 <p align="center">
