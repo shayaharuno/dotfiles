@@ -52,4 +52,4 @@ Additionally, check [Post Install Check List](https://github.com/shayaharuno/dot
 ## Credits
 - [Simple Hyprland](https://github.com/gaurav23b/simple-hyprland/tree/879dba81c84134072826a21453c15e553d03da2d)
 - [CachyOS defaults](https://github.com/CachyOS/cachyos-hyprland-settings)
-- [Hypwm](https://github.com/hyprwm)
+- [Hyprwm](https://github.com/hyprwm)
