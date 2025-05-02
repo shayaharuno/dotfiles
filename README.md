@@ -16,6 +16,7 @@
 * Installation shell script
 ```
 
+## Screenshots
 <p align="center">
   <img src=".misc/.fetch.png" />
   <img src=".misc/.layout.png" />
