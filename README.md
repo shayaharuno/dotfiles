@@ -1,7 +1,6 @@
 ## hypr dots
-Collection of personal configs, desktop environment settings and editors preferences. Mostly based on [Simple Hyprland](https://github.com/gaurav23b/simple-hyprland/tree/879dba81c84134072826a21453c15e553d03da2d) and CachyOS defaults.
 
-##### Key Changes
+##### Overview
 * [split monitor workspaces](https://github.com/Duckonaut/split-monitor-workspaces) plugin to assign distinct workspaces per monitor
 * CONTROL as the mainMod key (it's less freaky than using SUPER and straining fingers all the time)
 * Hardware cursor lag fix
@@ -10,7 +9,6 @@ Collection of personal configs, desktop environment settings and editors prefere
 * No includes, single `hypr.config` file
 * No gaps and borders
 * Non-distracting, almost instant animations
-* Rewritten waybar `config` and `style.css`
 * Sarasa UI and JetBrainsMono as primary ui and monospace fonts
 
 TODO: 
@@ -51,3 +49,8 @@ Additionally, check [Post Install Check List](https://github.com/shayaharuno/dot
 * area screenshot - `SUPER + PGUP`
 * fullscreen screenshot - `SUPER + PGDOWN`
 * hyprpicker - `SUPER + P`
+
+## Credits
+- [Simple Hyprland](https://github.com/gaurav23b/simple-hyprland/tree/879dba81c84134072826a21453c15e553d03da2d)
+- [CachyOS defaults](https://github.com/CachyOS/cachyos-hyprland-settings)
+- [Hypwm](https://github.com/hyprwm)
