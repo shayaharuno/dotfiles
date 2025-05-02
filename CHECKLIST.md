@@ -1,4 +1,4 @@
-##### General
+#### General
 * BTRFS*: `@.snapshots` subvolume is not needed for Timeshift snapshots
 * Enable periodic TRIM 
 ```sh 
@@ -65,7 +65,7 @@ git clone https://github.com/shayaharuno/dotfiles.git && cd dotfiles && stow .
 yay -S --needed aseprite-bin blender krita godot blender vscodium-bin ncspot steam keepassxc telegram-desktop qbittorrent obs-studio equibop neovim ark dolphin
 ```
 
-##### Hyprland
+#### Hyprland
 * Install essential packages
 ```sh
 yay -S --needed hyprland xdg-desktop-portal-hyprland polkit-kde-agent qt5-wayland qt6-wayland dunst qt5ct-kde qt6ct-kde nwg-look grimblast-git swww
@@ -121,13 +121,13 @@ hyprpm update
 
 * Use `nwg-look` to configure appearance of GTK apps
 
-##### GRUB
+#### GRUB
  * Uncommenting `GRUB_TERMINAL_OUTPUT=console` in `/etc/default/grub` fixes slow GRUB
  * `GRUB_GFXMODE=1440x900x32,1280x1024x32,auto` makes text larger and fixes slowdowns
  * Boot flags: `quiet splash loglevel=3 systemd.show_status=auto rd.udev.log_level=3 mitigations=off nowatchdog`
  * Apply changes: `grub-mkconfig -o /boot/grub/grub.cfg`
 
-##### Environment Variables
+#### Environment Variables
  * Put user-specific enironment variables to `~/.bash_profile`
  * Fix fractional scaling:
    ```
@@ -135,11 +135,11 @@ hyprpm update
    export STEAM_FORCE_DESKTOPUI_SCALING=1.5
    ```
 
-##### Intel Graphics
+#### Intel Graphics
  * Vulkan driver: `yay -S vulkan-intel lib32-vulkan-intel`
  * Video acceleration: `yay -S intel-media-driver onevpl-intel-gpu libva-utils`
 
-##### NVIDIA Graphics
+#### NVIDIA Graphics
  * For 2000+ series cards install `nvidia-open-dkms`, otherwise use `nvidia-dkms`
  * In case of poor performance add `nvidia-boost.service` to `/etc/systemd/system` and enable it `sudo systemctl enable --now nvidia-boost`. Adjust clocks in `nvidia-boost.service` based on output of `nvidia-smi -q -d SUPPORTED_CLOCKS` if needed.
  * Enable HDR: `export KWIN_DRM_ALLOW_NVIDIA_COLORSPACE=1` in `/etc/environment/`
@@ -156,16 +156,16 @@ options nvidia_drm modeset=1
 options nvidia_drm fbdev=1
 ```
 
-##### Wine
+#### Wine
  * Install: `yay -S wine wine-mono winetricks`
  * Install fonts: `winetricks allfonts`
  * Shutdown hang workaround: run `winecfg` and add `winedevice.exe` library then disable it
 
-##### Steam
+#### Steam
  * It's possible to use NTFS partition for game library
  * In that case move `compatdata` to Linux fs and symlink it with NTFS library
 
-##### Censorship
+#### Censorship
  * Spoofdpi: `yay -S spoofdpi-bin` then enable with `sudo systemctl enable --now spoofdpi.service` and add `--proxy-server=http://127.0.0.1:8080` to Chromium-based browsers
  * Mullvad: `yay -S mullvad-vpn-bin shadowsocks-rust shadowsocks-v2ray-plugin v2ray`
  * To circumvent API access issues run `mullvad-exclude sslocal -s 193.138.7.132:1300 -k mullvad -m chacha20-ietf-poly1305 -b 127.0.0.1:1080 --tcp-fast-open --tcp-no-delay --plugin v2ray-plugin --plugin-opts 'mode=quic;host=fi-hel-br-101.relays.mullvad.net'` and add `SOCKS5 remote` method at `127.0.0.1:1080`
