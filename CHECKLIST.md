@@ -12,8 +12,8 @@
 
 * Install reflector and update mirror list
 ```sh
-sudo pacman -S reflector
-reflector --latest 5 --sort rate --save /etc/pacman.d/mirrorlist
+sudo pacman -S reflector &&
+sudo reflector --latest 5 --sort rate --fastest 5 --save /etc/pacman.d/mirrorlist
 ```
 
 * Enable Bluetooth service
@@ -33,12 +33,12 @@ yay -Y --gendb && yay
 
 * Install required and essential packages
 ```sh
-yay -S --needed kitty fish librewolf-bin stow git-credential-manager nvidia-open-dkms nvidia-utils egl-wayland pipewire wireplumber sddm wl-clipboard tar kate dolphin
+yay -S --needed fish librewolf-bin stow egl-wayland pipewire wireplumber ranger wl-clipboard tar
 ```
 
 * Install fonts
 ```sh
-yay -S ttf-jetbrains-mono-nerd ttf-mplus-nerd font-inter
+yay -S ttf-jetbrains-mono-nerd ttf-mplus-nerd tf-noto-emoji-monochrome ttf-sarasa-gothic
 ```
 
 * Set fish as default shell (reboot required)
@@ -46,17 +46,14 @@ yay -S ttf-jetbrains-mono-nerd ttf-mplus-nerd font-inter
 chsh -s /usr/bin/fish
 ```
 
-* Consider removing Dolphin in favor of ranger
-```sh
-yay -R dolphin && yay -S ranger
-yay -Ycc
-```
+* Configure GitHub and create SSH key
+1. Generate SSH `ssh-keygen -t rsa -b 4096 "example@mail.com"`
+2. Set SSH Agent `eval "&(ssh-agent -s)` (doesn't work in fish)
+3. Add SSH (path to id_rsa) `ssh-add ~/username/.ssh/id_rsa`
+4. Copy SSH and add to Github `wl-copy < ~/.ssh/id_rsa.pub`
+5. Check existing repo config (in repo folder) `cat .git/config`
+6. If repo use https URL -> update config URL to SSH (in repo folder) `git remote set-url origin GITHUB-SSH-URL-HERE`
 
-* Configure [git-credential-manager](https://github.com/git-ecosystem/git-credential-manager/blob/release/docs/install.md) (install pass and create passkey if needed)
-```sh
-git-credential-manager configure
-git-credential-manager github login
-```
 
 * Clone dotfiles and make symlinks (use `stow --adopt .` in case of conflicting configs)
 ```sh 
@@ -65,13 +62,13 @@ git clone https://github.com/shayaharuno/dotfiles.git && cd dotfiles && stow .
 
 * Install additional packages 
 ```sh
-yay -S --needed aseprite-bin blender krita godot blender visual-studio-code-bin ncspot steam keepassxc telegram-desktop qbittorrent obs-studio discord neovim ark rnote vlc kcalc
+yay -S --needed aseprite-bin blender krita godot blender vscodium-bin ncspot steam keepassxc telegram-desktop qbittorrent obs-studio equibop neovim ark dolphin
 ```
 
 ##### Hyprland
 * Install essential packages
 ```sh
-yay -S --needed hyprland xdg-desktop-portal-hyprland polkit-kde-agent qt5-wayland qt6-wayland dunst qt5ct-kde qt6ct-kde nwg-look grimblast-git
+yay -S --needed hyprland xdg-desktop-portal-hyprland polkit-kde-agent qt5-wayland qt6-wayland dunst qt5ct-kde qt6ct-kde nwg-look grimblast-git swww
 ```
 
 * Add autostart parameters to `~/.config/hypr/hyprland.conf` (skip if using dotfiles)
@@ -113,10 +110,11 @@ cursor {
 
 * Update hyprpm and install [split-monitor-workspaces](https://github.com/Duckonaut/split-monitor-workspaces) plugin
 ```sh
+hyprpm update &&
+hyprpm add https://github.com/Duckonaut/split-monitor-workspaces &&
+hyprpm enable split-monitor-workspacesplugin &&
+hyprpm reload &&
 hyprpm update
-hyprpm add https://github.com/Duckonaut/split-monitor-workspaces
-hyprpm enable split-monitor-workspacesplugin
-hyprpm reload
 ```
 
 * To configure QT apps appearance use `qt6ct-kde` and `qt5ct-kde` instead of ~~qt6ct~~ and ~~qt5ct~~ since those packages aren't patched to work properly with Dolphin and the rest of KDE apps
