@@ -46,9 +46,16 @@ window#waybar {
     border-radius: 0;
 }
 
+tooltip {
+    border-radius: 6px;
+    background-color: @C_PANEL;
+}
 
-
-
+tooltip label {
+    color: @C_TEXT_GRAY;
+    font-size: 13;
+    margin: 12 12 12 12;
+}
 
 #custom-tofi {
     background-color: @C_PANEL;
@@ -158,6 +165,8 @@ window#waybar {
     padding: 2 0 0 0;
     margin: 0 0 0 0;
 }
+
+
 
 /*
 #window,

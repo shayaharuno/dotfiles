@@ -129,6 +129,7 @@ TODO:
         "format-icons": ["󰃞 ", "󰃟 ", "󰃠 "],
         "on-scroll-up": "brightnessctl set 10%+",
         "on-scroll-down": "brightnessctl set 10%-",
+        "tooltip-format": " {icon} {percent}%  ",
     },
 
     "battery": {
@@ -147,7 +148,7 @@ TODO:
             "󰁾",
             "󰂀",
             "󰁹"
-        ]
+        ],
     },
 
     "pulseaudio": {
@@ -188,7 +189,7 @@ TODO:
         "format": "󰾆  {percentage}%",
         "max-length": 10,
         "tooltip": true,
-        "tooltip-format": "󰾆  {percentage}%\n  {used:0.1f}GB/{total:0.1f}GB"
+        "tooltip-format": " 󰾆  {percentage}% \n   {used:0.1f}GB/{total:0.1f}GB "
     },
 
     "cpu": {
@@ -202,9 +203,9 @@ TODO:
         // "controller": "controller1", // specify the alias of the controller if there are more than 1 on the system
         "format": "󰂯",
         "format-disabled": "󰂲", // an empty format will hide the module
-        "tooltip-format": "{controller_alias}\t{controller_address}",
-        "tooltip-format-connected": "{controller_alias}\t{controller_address}\n\n{device_enumerate}",
-        "tooltip-format-enumerate-connected": "{device_alias}\t{device_address}",
+        "tooltip-format": " {controller_alias}\t{controller_address} ",
+        "tooltip-format-connected": " {controller_alias}\t{controller_address}\n\n{device_enumerate} ",
+        "tooltip-format-enumerate-connected": " {device_alias}\t{device_address} ",
         "on-click": "blueman-manager"
     },
 
@@ -212,7 +213,7 @@ TODO:
         "tooltip": true,
         "format-wifi": " ",
         "format-ethernet": "󰈀 ",
-        "tooltip-format": "Network: <b>{essid}</b>\nSignal strength: <b>{signaldBm}dBm ({signalStrength}%)</b>\nFrequency: <b>{frequency}MHz</b>\nInterface: <b>{ifname}</b>\nIP: <b>{ipaddr}/{cidr}</b>\nGateway: <b>{gwaddr}</b>\nNetmask: <b>{netmask}</b>",
+        "tooltip-format": " Network: <b>{essid}</b> \n Signal strength: <b>{signaldBm}dBm ({signalStrength}%)</b> \n Frequency: <b>{frequency}MHz</b> \n Interface: <b>{ifname}</b> \n IP: <b>{ipaddr}/{cidr}</b> \n Gateway: <b>{gwaddr}</b> \n Netmask: <b>{netmask}</b> ",
         "format-linked": "󰈀 {ifname} (No IP)",
         "format-disconnected": "󰖪 ",
         "tooltip-format-disconnected": "Disconnected",
