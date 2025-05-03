@@ -1,0 +1,83 @@
+horizontal = false
+
+font = "Adwaita"
+font-size = 12
+text-color = #61656D
+
+# prompt-color = #c1c1c1
+# prompt-background = #00000000
+# prompt-background-padding = 0
+# prompt-background-corner-radius = 0
+
+input-color = #61656D
+
+# default-result-color = #c1c1c1
+# default-result-background = #00000000
+# default-result-background-padding = 0
+# default-result-background-corner-radius = 0
+
+# alternate-result-color = #FFFFFF
+# alternate-result-background = #00000000
+# alternate-result-background-padding = 0
+# alternate-result-background-corner-radius = 0
+
+# Selection text
+selection-color = #c1c1c1
+selection-background = #00000000
+selection-background-padding = 0
+selection-background-corner-radius = 0
+
+# Matching portion of selection text
+selection-match-color = #00000000
+
+
+# Supported values: bar, block, underscore
+text-cursor-style = bar
+text-cursor-color = #61656D
+#text-cursor-background = #000000
+text-cursor-corner-radius = 0
+text-cursor-style = underscore, or to 2 otherwise.
+text-cursor-thickness = 2
+
+
+prompt-text = ""
+prompt-padding = 18
+
+num-results = 0
+result-spacing = 6
+min-input-width = 64
+
+
+width = 15%
+height = 23%
+background-color = #1A1B25dd
+outline-width = 0
+outline-color = #080800
+border-width = 0
+border-color = #F92672
+corner-radius = 6
+
+padding-top = 8
+padding-bottom = 8
+padding-left = 16
+padding-right = 32
+
+clip-to-padding = true
+scale = true
+
+
+# Supported values: top-left, top, top-right, right, bottom-right,
+# bottom, bottom-left, left, center.
+anchor = bottom
+
+margin-top = 0
+margin-bottom = 32
+margin-left = 0
+margin-right = 0
+
+
+text-cursor = true
+history = true
+
+# Supported values: normal, prefix, fuzzy
+matching-algorithm = normal

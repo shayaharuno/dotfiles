@@ -1,0 +1,18 @@
+width = 100%
+height = 100%
+border-width = 0
+outline-width = 0
+padding-left = 45%
+padding-top = 40%
+result-spacing = 24
+num-results = 5
+
+font = Adwaita Sans
+font-size = 20
+
+text-color = #787D86
+
+prompt-text = " : "
+
+background-color = #00000088
+selection-color = #ffffff

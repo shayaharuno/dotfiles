@@ -57,7 +57,7 @@ TODO:
         "format-icons": {
         "urgent": "󱍥",
         "active": "", // focused workspace on current monitor
-        "visible": "", // focused workspace on other monitors
+        "visible": "", // focused workspace on other monitors
         "default": "", //has content but not focused
         "empty": "" // persistent (created by this plugin)
         },
@@ -212,7 +212,7 @@ TODO:
         "tooltip": true,
         "format-wifi": " ",
         "format-ethernet": "󰈀 ",
-        "tooltip-format": "Network: <big><b>{essid}</b></big>\nSignal strength: <b>{signaldBm}dBm ({signalStrength}%)</b>\nFrequency: <b>{frequency}MHz</b>\nInterface: <b>{ifname}</b>\nIP: <b>{ipaddr}/{cidr}</b>\nGateway: <b>{gwaddr}</b>\nNetmask: <b>{netmask}</b>",
+        "tooltip-format": "Network: <b>{essid}</b>\nSignal strength: <b>{signaldBm}dBm ({signalStrength}%)</b>\nFrequency: <b>{frequency}MHz</b>\nInterface: <b>{ifname}</b>\nIP: <b>{ipaddr}/{cidr}</b>\nGateway: <b>{gwaddr}</b>\nNetmask: <b>{netmask}</b>",
         "format-linked": "󰈀 {ifname} (No IP)",
         "format-disconnected": "󰖪 ",
         "tooltip-format-disconnected": "Disconnected",
