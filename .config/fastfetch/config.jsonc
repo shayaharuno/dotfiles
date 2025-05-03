@@ -70,7 +70,7 @@
         {
             "key": "{$2}{#37} colors  ",
             "type": "colors",
-            "symbol": "circle"
+            "symbol": "square"
         },
     ]
 }
