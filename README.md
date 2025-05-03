@@ -11,8 +11,10 @@
 
 ## TODO
 ```
-* Fix brightnessctl to control external monitor brightness levels.
-* Notifications daemon styling (consider mako instead of dunst).
+* Fix brightnessctl to control external monitor brightness levels
+* Notifications daemon styling (consider mako instead of dunst)
+* Unified custom theme for QT and GTK
+* Wlogout styling
 * Installation shell script
 ```
 
