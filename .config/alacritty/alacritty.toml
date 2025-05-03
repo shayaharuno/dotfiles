@@ -5,7 +5,7 @@ live_config_reload = true
 decorations = "None"
 dynamic_padding = true
 dynamic_title = false
-opacity = 0.75
+opacity = 0.9
 title = "Alacritty"
 
 [colors]
