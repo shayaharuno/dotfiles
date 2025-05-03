@@ -4,11 +4,11 @@
         <author name="2dchaos" url="https://2dchaos.itch.io" />
     </authors>
     <fonts>
-        <font id="default" name="SegoeUi" type="truetype" file="segoeui.ttf" size="12">
-            <fallback font="Unicode" size="12" />
+        <font id="default" name="JetBrainsMono Nerd Font" type="truetype" file="JetBrainsMonoNerdFont.ttf" size="12">
+            <fallback font="Serif" size="12" />
         </font>
-        <font id="mini" font="SegoeUi" size="11">
-            <fallback font="Unicode" size="11" />
+        <font id="mini" font="JetBrainsMono Nerd Font" size="11">
+            <fallback font="Serif" size="11" />
         </font>
     </fonts>
     <dimensions>
