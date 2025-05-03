@@ -27,7 +27,6 @@
     "explorer.confirmDelete": false,
     "explorer.confirmDragAndDrop": false,
     "extensions.ignoreRecommendations": true,
-    "window.customTitleBarVisibility": "windowed",
     "telemetry.telemetryLevel": "off",
     "vim.highlightedyank.enable": true,
 
@@ -207,5 +206,12 @@
     },
     "pixelbyte.love2d.path": "/usr/bin/love",
     "workbench.iconTheme": null,
-    "workbench.preferredDarkColorTheme": "Kanagawa Wave",
+    "workbench.preferredDarkColorTheme": "Kanagawa Dragon",
+    "workbench.startupEditor": "none",
+    "window.titleBarStyle": "native",
+    "workbench.navigationControl.enabled": false,
+    "window.commandCenter": false,
+    "window.customTitleBarVisibility": "never",
+    "telemetry.feedback.enabled": false,
+    "update.showReleaseNotes": false,
 }
