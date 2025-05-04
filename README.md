@@ -6,17 +6,9 @@
 * No Kvantum. QT and GTK applications styled by separate fine tuned themes via `nwg-look` and `qt6ct-kde` (WIP)
 * No includes, single `hypr.config` file
 * No gaps and borders
+* No wlogout
 * Non-distracting, almost instant animations
 * Sarasa UI and JetBrainsMono as primary ui and monospace fonts
-
-## TODO
-```
-* Fix brightnessctl to control external monitor brightness levels
-* Notifications daemon styling (consider mako instead of dunst)
-* Unified custom theme for QT and GTK
-* Wlogout styling
-* Installation shell script
-```
 
 ## Screenshots
 <p align="center">
