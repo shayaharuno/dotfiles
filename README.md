@@ -29,7 +29,7 @@
 ## Installation
 These dots are not meant to be used by someone else, as they are highly customized to my personal preferences. However, if you are still willing to try, just clone the repo and replace the configs you are most interested in.
 
-Additionally, check [Post Install Check List](https://github.com/shayaharuno/dotfiles/blob/master/CHECKLIST.md) for clean Arch + Hyprland installation
+Additionally, check [Post Install Check List](https://github.com/shayaharuno/dotfiles/blob/master/.misc/CHECKLIST.md) for clean Arch + Hyprland installation
 
 ## Keybindings
 * tofi - `ALT + SPACE`
@@ -37,7 +37,6 @@ Additionally, check [Post Install Check List](https://github.com/shayaharuno/dot
 * kill active - `CTRL + Q`
 * librewolf - `CTRL + B`
 * obsidian - `CTRL + O`
-* vscode - `CTRL + N`
 * wlogout - `CTRL + ALT + DEL`
 * keyboard layout switch - `SHIFT + ALT`
 * disable all keybindings - `CTRL + HOME`
