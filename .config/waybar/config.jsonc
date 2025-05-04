@@ -30,8 +30,7 @@ TODO:
         "battery",
         "backlight",
         "pulseaudio",
-        "pulseaudio#microphone",
-        "custom/power"
+        "pulseaudio#microphone"
     ],
 
 

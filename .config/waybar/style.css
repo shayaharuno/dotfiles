@@ -96,7 +96,7 @@ tooltip label {
 #pulseaudio.microphone {
     background-color: @C_PANEL;
     color: @C_TEXT_GRAY;
-    padding: 0 0 0 12;
+    padding: 0 6 0 12;
     margin: 2 0 0 0;
 }
 
