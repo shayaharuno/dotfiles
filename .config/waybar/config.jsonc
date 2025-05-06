@@ -67,7 +67,7 @@ TODO:
         "format": "{}°",
         "tooltip": true,
         "interval": 3600,
-        "exec": "wttrbar",
+        "exec": "wttrbar --location Belgrade",
         "return-type": "json"
     },
 
