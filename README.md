@@ -1,3 +1,6 @@
+> [!IMPORTANT]
+> Using MacBook as daily driver, regained sanity, found wife and embraced brewing. These dots are outdated.
+
 ## Overview
 * [split monitor workspaces](https://github.com/Duckonaut/split-monitor-workspaces) plugin to assign distinct workspaces per monitor
 * CTRL as the mainMod key (no interference with common keybinds such as CTRL+S, CTRL+V, etc)
