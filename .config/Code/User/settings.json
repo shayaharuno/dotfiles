@@ -12,7 +12,7 @@
     "editor.scrollbar.horizontal": "hidden",
     //"editor.scrollbar.vertical": "hidden",
     //"editor.scrollbar.verticalScrollbarSize": 0,
-    "window.zoomLevel": 0,
+    "window.zoomLevel": -1,
     "debug.console.fontFamily": "JetBrainsMono Nerd Font, monospace",
     "debug.console.fontSize": 15,
     "debug.openDebug": "neverOpen",
@@ -21,7 +21,7 @@
     "editor.fontWeight": "normal",
     "editor.fontVariations": true,
     "editor.fontLigatures": true,
-    //"editor.rulers": [90, 120],
+    "editor.rulers": [92, 120],
     "editor.cursorSmoothCaretAnimation": "off",
     "editor.folding": true,
     "explorer.confirmDelete": false,
@@ -70,8 +70,6 @@
 
     // Theme Setup
     "window.autoDetectColorScheme": true,
-    //"workbench.preferredLightColorTheme": "Github Light Theme - Gray",
-    "workbench.activityBar.location": "top",
 
     
     // Theme Specific Overrides
@@ -121,6 +119,7 @@
             "tab.inactiveBackground": "#1A1B25",
             "tab.unfocusedActiveBackground": "#2D2D3A",
             "tab.unfocusedHoverBackground": "#2D2D3A",
+            "editorRuler.foreground": "#2D2D3A",
             //"tab.unfocusedInactiveBackground": "#001aff",
             //"tab.activeBorderTop": "#ff0000",
             
@@ -203,4 +202,6 @@
     "workbench.preferredDarkColorTheme": "Kanagawa",
     "chat.commandCenter.enabled": false,
     "window.commandCenter": false,
+    "github.copilot.nextEditSuggestions.enabled": true,
+    "workbench.activityBar.location": "top",
 }

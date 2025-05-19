@@ -1,5 +1,8 @@
 MenuBar=Disabled
 
+[CompactMode]
+PreviewSize=80
+
 [General]
 Version=202
 ViewPropsTimestamp=2025,4,30,0,58,41.282
