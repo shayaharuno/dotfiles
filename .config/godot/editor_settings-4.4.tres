@@ -33,12 +33,15 @@ export/windows/rcedit = ""
 export/windows/osslsigncode = ""
 export/windows/wine = ""
 _editor_settings_advanced_mode = true
-_project_settings_advanced_mode = false
+_project_settings_advanced_mode = true
 _export_template_download_directory = ""
 _default_feature_profile = "Dev"
 _script_setup_templates_dictionary = {}
 _use_favorites_root_selection = false
 _script_setup_use_script_templates = false
+asset_library/available_urls = {
+"godotengine.org (Official)": "https://godotengine.org/asset-library/api"
+}
 shortcuts = [{
 "name": "spatial_editor/viewport_zoom_modifier_1",
 "shortcuts": [SubResource("InputEventKey_gsnya")]

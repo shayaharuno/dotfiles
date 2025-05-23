@@ -12,7 +12,7 @@
     "editor.scrollbar.horizontal": "hidden",
     //"editor.scrollbar.vertical": "hidden",
     //"editor.scrollbar.verticalScrollbarSize": 0,
-    "window.zoomLevel": -1,
+    "window.zoomLevel": 0,
     "debug.console.fontFamily": "JetBrainsMono Nerd Font, monospace",
     "debug.console.fontSize": 15,
     "debug.openDebug": "neverOpen",
