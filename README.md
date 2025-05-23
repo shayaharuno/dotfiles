@@ -1,7 +1,4 @@
-> [!IMPORTANT]
-> Using MacBook as daily driver, regained sanity, found wife and embraced brewing. These dots are outdated.
-
-## Overview
+# 🌊 Kanagawa Wave Minimal hyprdots
 * [split monitor workspaces](https://github.com/Duckonaut/split-monitor-workspaces) plugin to assign distinct workspaces per monitor
 * CTRL as the mainMod key (no interference with common keybinds such as CTRL+S, CTRL+V, etc)
 * Hardware cursor lag fix
@@ -30,9 +27,7 @@ Additionally, check [Post Install Check List](https://github.com/shayaharuno/dot
 * tofi - `ALT + SPACE`
 * alacritty - `CTRL + BACKSLASH`
 * kill active - `CTRL + Q`
-* librewolf - `CTRL + B`
-* obsidian - `CTRL + O`
-* wlogout - `CTRL + ALT + DEL`
+* librewolf - `SUPER + B`
 * keyboard layout switch - `SHIFT + ALT`
 * disable all keybindings - `CTRL + HOME`
 * select workspace - `CTRL + 1-5`
@@ -40,10 +35,10 @@ Additionally, check [Post Install Check List](https://github.com/shayaharuno/dot
 * silently send to workspace - `CTRL + SHIFT + 1-5`
 * logout - `CTRL + F12`
 * kill waybar - `CTRL + SHIFT + F12`
-* scratchpad - `SUPER + S`
-* send to scratchpad - `SUPER + SHIFT + S`
-* area screenshot - `SUPER + PGUP`
-* fullscreen screenshot - `SUPER + PGDOWN`
+* scratchpad - `ALT + TAB`
+* send to scratchpad - `SUPER + S`
+* area screenshot - `CTRL + PGUP`
+* fullscreen screenshot - `CTRL + PGDOWN`
 * hyprpicker - `SUPER + P`
 
 ## Credits
