@@ -1,6 +1,7 @@
 @define-color C_TEXT #E6C384;
 @define-color C_TEXT_GRAY #FFFFFF;
-@define-color C_PANEL #1A1B25;
+@define-color C_PANEL #000000;
+@define-color C_PANEL_BACKUP #1A1B25;
 @define-color C_URGENT #E46876;
 
 *{
@@ -61,7 +62,7 @@ tooltip label {
     background-color: @C_PANEL;
     font-size: 18;
     color: @C_TEXT_GRAY;
-    padding-left: 10;
+    padding-left: 15;
     padding-right: 13;
 }
 
