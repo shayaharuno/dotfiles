@@ -4,11 +4,12 @@
 keycode = 4194326
 
 [resource]
+interface/editor/main_font_size = 16
 interface/editor/main_font = "/home/shaya/.config/godot/Inter_18pt-Regular.ttf"
 interface/editor/main_font_bold = "/home/shaya/.config/godot/Inter_18pt-Bold.ttf"
 interface/editor/separate_distraction_mode = true
 interface/theme/preset = "Custom"
-interface/theme/base_color = Color(0.101961, 0.105882, 0.145098, 1)
+interface/theme/base_color = Color(0.0787915, 0.0768142, 0.071456, 1)
 interface/theme/accent_color = Color(0.901961, 0.764706, 0.517647, 1)
 interface/theme/contrast = 0.3
 interface/theme/icon_saturation = 1.5
@@ -34,14 +35,11 @@ export/windows/osslsigncode = ""
 export/windows/wine = ""
 _editor_settings_advanced_mode = true
 _project_settings_advanced_mode = true
-_export_template_download_directory = ""
+_export_template_download_directory = "/home/shaya/.cache/godot"
 _default_feature_profile = "Dev"
 _script_setup_templates_dictionary = {}
 _use_favorites_root_selection = false
 _script_setup_use_script_templates = false
-asset_library/available_urls = {
-"godotengine.org (Official)": "https://godotengine.org/asset-library/api"
-}
 shortcuts = [{
 "name": "spatial_editor/viewport_zoom_modifier_1",
 "shortcuts": [SubResource("InputEventKey_gsnya")]

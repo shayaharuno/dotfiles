@@ -5,7 +5,7 @@
         "command": "-workbench.action.focusPreviousPart"
     },
     {
-        "key": "shift+q",
+        "key": "ctrl+shift+q",
         "command": "godotTools.debugger.debugCurrentFile"
     },
     {

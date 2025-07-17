@@ -1,13 +1,13 @@
 @define-color C_TEXT #E6C384;
 @define-color C_TEXT_GRAY #FFFFFF;
-@define-color C_PANEL #000000;
+@define-color C_PANEL #111111;
 @define-color C_PANEL_BACKUP #1A1B25;
 @define-color C_URGENT #E46876;
 
 *{
     font-family: Sarasa UI J, JetBrainsMono Nerd Font;
     font-weight: 600;
-    font-size: 13px;
+    font-size: 15px;
     padding-top: 0px;
     padding-bottom: 0px;
     padding-left: 0px;
@@ -62,8 +62,8 @@ tooltip label {
     background-color: @C_PANEL;
     font-size: 18;
     color: @C_TEXT_GRAY;
-    padding-left: 15;
-    padding-right: 13;
+    padding-left: 20;
+    padding-right: 24;
 }
 
 #tray {
@@ -119,7 +119,7 @@ tooltip label {
     background-color: @C_PANEL;
     color: @C_TEXT_GRAY;
     font-weight: 700;
-    font-size: 12;
+    font-size: 14;
     padding: 4 6 0 12;
     margin: 0 0 0 0;
 }
@@ -135,7 +135,7 @@ tooltip label {
 #network {
     background-color: @C_PANEL;
     color: @C_TEXT_GRAY;
-    padding: 2 6 0 10;
+    padding: 2 2 0 10;
     margin: 0 0 0 0;
 }
 
@@ -156,7 +156,8 @@ tooltip label {
 #mpris {
     background-color: @C_PANEL;
     color: @C_TEXT_GRAY;
-    padding: 3 6 0 12;
+    font-size: 14;
+    padding: 1 6 0 12;
     margin: 0 0 0 0;
 }
 

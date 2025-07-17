@@ -8,27 +8,32 @@
 
 
     // Editor & Explorer
-    "editor.minimap.enabled": false,
+    "window.zoomLevel": 1,
+    "workbench.activityBar.location": "top",
+    "workbench.iconTheme": "file-icons",
+    "workbench.preferredDarkColorTheme": "Vesper",
+    "debug.console.fontFamily": "JetBrainsMono Nerd Font, monospace",
+    "debug.console.fontSize": 15,
+    "editor.fontFamily": "JetBrainsMono Nerd Font, monospace",
+    "editor.fontSize": 17,
+    "editor.minimap.enabled": true,
     "editor.scrollbar.horizontal": "hidden",
     //"editor.scrollbar.vertical": "hidden",
     //"editor.scrollbar.verticalScrollbarSize": 0,
-    "window.zoomLevel": 0,
-    "debug.console.fontFamily": "JetBrainsMono Nerd Font, monospace",
-    "debug.console.fontSize": 15,
     "debug.openDebug": "neverOpen",
-    "editor.fontFamily": "JetBrainsMono Nerd Font, monospace",
-    "editor.fontSize": 19,
     "editor.fontWeight": "normal",
     "editor.fontVariations": true,
     "editor.fontLigatures": true,
-    "editor.rulers": [92, 120],
+    //"editor.rulers": [92, 120],
     "editor.cursorSmoothCaretAnimation": "off",
     "editor.folding": true,
     "explorer.confirmDelete": false,
     "explorer.confirmDragAndDrop": false,
     "extensions.ignoreRecommendations": true,
+    "window.commandCenter": false,
     "window.customTitleBarVisibility": "windowed",
     "telemetry.telemetryLevel": "off",
+    "editor.cursorBlinking": "blink",
     "vim.highlightedyank.enable": true,
 
 
@@ -59,6 +64,8 @@
 
     // Copilot
     "github.copilot.selectedCompletionModel": "gpt-4o-copilot",
+    "github.copilot.nextEditSuggestions.enabled": true,
+    "chat.commandCenter.enabled": false,
     "github.copilot.enable": {
         "*": false,
         "plaintext": false,
@@ -71,43 +78,14 @@
     // Theme Setup
     "window.autoDetectColorScheme": true,
 
-    
+
     // Theme Specific Overrides
     "workbench.colorCustomizations": {
-        "[Github Light Theme - Gray]": {
-            "titleBar.activeBackground": "#E5E5E5",
-            "titleBar.inactiveBackground": "#E5E5E5",
-            "titleBar.activeForeground": "#010101",
-            "titleBar.inactiveForeground": "#737373",
-            "statusBar.background": "#eeeeee",
-            "statusBar.foreground": "#010101",
-            "statusBar.debuggingBackground": "#e0dada",
-            "sideBar.background": "#E5E5E5",
-            "sideBar.border": "#eeeeee",
-            //"sideBarTitle.border": "#E5E5E5",
-            "sideBarSectionHeader.background": "#E5E5E5",
-            "editor.background": "#ececec",
-            "activityBar.background": "#E5E5E5",
-            "panel.background": "#ececec",
-            "panel.border": "#E5E5E5",
-            "editorGroupHeader.tabsBackground": "#E5E5E5",
-            //"tab.activeBackground": "#E5E5E5",
-            "tab.inactiveBackground": "#E5E5E5",
-            "editorHoverWidget.background": "#dfdfdf", //documentation BG
-            "debugConsole.infoForeground": "#1d1d1d",
-            "debugConsole.warningForeground": "#737383",
-            "debugConsole.sourceForeground": "#2a2a2c",
-            "debugConsole.errorForeground": "#268044",
-            "editor.wordHighlightBackground": "#e6e2d59c",
-            "editorRuler.foreground": "#e9e9e9",
-            "editor.lineHighlightBackground": "#e2e2e2",
-            "editor.lineHighlightBorder": "#e2e2e2",
-        },
         "[Kanagawa]": {
             // Editor Settings
             "editor.lineHighlightBackground": "#252735",
             "editor.background": "#1A1B25",
-            
+
             // Primary Code Tabs
             "editorGroupHeader.tabsBorder": "#2D2D3A",
             "editorGroupHeader.tabsBackground": "#1A1B25",
@@ -122,7 +100,7 @@
             "editorRuler.foreground": "#2D2D3A",
             //"tab.unfocusedInactiveBackground": "#001aff",
             //"tab.activeBorderTop": "#ff0000",
-            
+
             // Bottom Header Panel
             "terminal.background": "#1A1B25",
             "panel.border": "#2D2D3A",
@@ -133,7 +111,7 @@
             "statusBar.border": "#2D2D3A",
             "statusBar.debuggingBackground": "#4F4F82",
             //"panel.background": "#ff0000",
-            
+
             // Side Bars
             "sideBar.background": "#1A1B25",
             "sideBar.border": "#2D2D3A",
@@ -155,17 +133,6 @@
         }
     },
     "editor.tokenColorCustomizations": {
-        "[Github Light Theme - Gray]": {
-            "textMateRules": [
-                {
-                    "name": "Object Field",
-                    "scope": "support.type.property-name.json,entity.other.attribute-name,meta.object-literal.key,variable.other.property,variable.other.object.property,variable.other.constant.property.js,variable.other.constant.object.property.js,support.variable.property.dom.js,variable.object.property",
-                    "settings": {
-                        "foreground": "#236979",
-                    }
-                },
-            ]
-        },
         "[Kanagawa]": {
             "textMateRules": [
                 {
@@ -185,23 +152,11 @@
                         "foreground": "#957fb8"
                     }
                 },
-                // {
-                //     "name": "Variable",
-                //     "scope": [
-                //         "variable",
-                //     ],
-                //     "settings": {
-                //         "foreground": "#d0d6d8"
-                //     }
-                // },
             ]
         }
     },
-    "pixelbyte.love2d.path": "/usr/bin/love",
-    "workbench.iconTheme": "file-icons",
-    "workbench.preferredDarkColorTheme": "Kanagawa",
-    "chat.commandCenter.enabled": false,
-    "window.commandCenter": false,
-    "github.copilot.nextEditSuggestions.enabled": true,
-    "workbench.activityBar.location": "top",
+    "editor.accessibilitySupport": "off",
+    "editor.tabSize": 4,
+    "editor.mouseWheelScrollSensitivity": 2,
+
 }

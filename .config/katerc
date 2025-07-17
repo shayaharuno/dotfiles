@@ -127,10 +127,11 @@ SetEditor=false
 
 [MainWindow]
 2 screens: Window-Maximized=true
+3 screens: Window-Maximized=true
 ToolBarsMovable=Enabled
 
 [UiSettings]
-ColorScheme=Kanagawa Wave
+ColorScheme=MonoCode Panther Yellow
 
 [filetree]
 editShade=183,220,246

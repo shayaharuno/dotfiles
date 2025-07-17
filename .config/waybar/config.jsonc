@@ -15,7 +15,7 @@ TODO:
     "modules-left": [
         "custom/tofi",
         "clock",
-        "custom/weather",
+        //"custom/weather",
         "tray"
         //"hyprland/workspaces"
     ],
@@ -48,7 +48,7 @@ TODO:
         //"on-click-right": "nwg-drawer",
         //"on-click": "wofi --show run",
         "on-click": "tofi-drun -c ~/.config/tofi/configV --drun-launch=true",
-        //"on-click-middle": "pkill -9 wofi"
+        //"on-click-right": "pkill -9 tofi-drun"
     },
 
     "hyprland/workspaces": {
@@ -82,7 +82,7 @@ TODO:
             "firefox": "󰈹  "
         },
         "status-icons": {
-            "paused": "⏸ "
+            "paused": "󰏤 "
         },
         "dynamic-order": ["title", "artist"],
         "artist-len": 20,

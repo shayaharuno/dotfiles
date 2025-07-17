@@ -1,7 +1,7 @@
 horizontal = false
 
 font = "Adwaita"
-font-size = 12
+font-size = 13
 text-color = #61656D
 
 # prompt-color = #c1c1c1
@@ -50,9 +50,9 @@ min-input-width = 64
 
 width = 15%
 height = 23%
-background-color = #1A1B25f1
+background-color = #000000DD
 outline-width = 0
-outline-color = #080800
+outline-color = #61656D33
 border-width = 0
 border-color = #F92672
 corner-radius = 6
