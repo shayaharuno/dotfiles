@@ -5,7 +5,7 @@ font-size = 13
 text-color = #61656D
 
 # prompt-color = #c1c1c1
-# prompt-background = #00000000
+# prompt-background = #11111111
 # prompt-background-padding = 0
 # prompt-background-corner-radius = 0
 
@@ -50,7 +50,7 @@ min-input-width = 64
 
 width = 15%
 height = 23%
-background-color = #000000DD
+background-color = #111111DD
 outline-width = 0
 outline-color = #61656D33
 border-width = 0

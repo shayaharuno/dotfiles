@@ -1,8 +1,7 @@
-# 🌊 Kanagawa Wave Minimal hyprdots
+# 🌊 hyprdots
 * [split monitor workspaces](https://github.com/Duckonaut/split-monitor-workspaces) plugin to assign distinct workspaces per monitor
 * CTRL as the mainMod key (no interference with common keybinds such as CTRL+S, CTRL+V, etc)
 * Hardware cursor lag fix
-* Color theme adjustments to match [Kanagawa Wave](https://github.com/rebelot/kanagawa.nvim) palette
 * No Kvantum. QT and GTK applications styled by separate fine tuned themes via `nwg-look` and `qt6ct-kde` (WIP)
 * No includes, single `hypr.config` file
 * No gaps and borders
@@ -27,7 +26,7 @@ Additionally, check [Post Install Check List](https://github.com/shayaharuno/dot
 * tofi - `ALT + SPACE`
 * alacritty - `CTRL + BACKSLASH`
 * kill active - `CTRL + Q`
-* librewolf - `SUPER + B`
+* librewolf - `CTRL + L`
 * keyboard layout switch - `SHIFT + ALT`
 * disable all keybindings - `CTRL + HOME`
 * select workspace - `CTRL + 1-5`
