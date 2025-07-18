@@ -11,7 +11,7 @@
     "window.zoomLevel": 1,
     "workbench.activityBar.location": "top",
     "workbench.iconTheme": "file-icons",
-    "workbench.preferredDarkColorTheme": "Vesper",
+    "workbench.preferredDarkColorTheme": "Kanagawa Black",
     "debug.console.fontFamily": "JetBrainsMono Nerd Font, monospace",
     "debug.console.fontSize": 15,
     "editor.fontFamily": "JetBrainsMono Nerd Font, monospace",
@@ -71,7 +71,8 @@
         "plaintext": false,
         "markdown": false,
         "scminput": false,
-        "gdscript": false
+        "gdscript": false,
+        "jsonc": true
     },
 
 
@@ -130,10 +131,71 @@
 
             // Documentation Background
             "editorHoverWidget.background": "#17171f",
+        },
+        "[Kanagawa Black]": {
+            // Editor Settings
+            "editor.lineHighlightBackground": "#222222",
+            "editor.background": "#111111",
+
+            // Primary Code Tabs
+            "editorGroupHeader.tabsBorder": "#111111",
+            "editorGroupHeader.tabsBackground": "#111111",
+            //"editorGroupHeader.border": "#2D2D3A",
+            "tab.activeBackground": "#222222",
+            "tab.unfocusedInactiveBackground": "#111111",
+            "tab.hoverBackground": "#222222",
+            "tab.inactiveBackground": "#111111",
+            "tab.unfocusedActiveBackground": "#111111",
+            "tab.unfocusedHoverBackground": "#111111",
+            "editorLineNumber.foreground": "#333333",
+            "editorLineNumber.activeForeground": "#777777",
+            "editorIndentGuide.background1": "#222222",
+            "editorIndentGuide.activeBackground1": "#333333",
+            "editorStickyScroll.background": "#111111",
+            "editorStickyScroll.shadow": "#222222",
+            //"editorRuler.foreground": "#111111",
+            "tab.activeBorderTop": "#111111",
+            "tab.activeBorder": "#111111",
+            "tab.border": "#111111",
+            "tab.unfocusedActiveBorder": "#111111",
+
+            // Bottom Header Panel
+            "dropdown.background": "#161616",
+            "input.background": "#161616",
+            "terminal.background": "#111111",
+            "panel.border": "#111111",
+            "panelTitle.activeBorder": "#111111",
+            "debugConsole.infoForeground": "#b9b9b9",
+            "debugConsole.warningForeground": "#333333",
+            "statusBar.background": "#111111",
+            "statusBar.border": "#111111",
+            "statusBar.debuggingBackground": "#111111",
+            "panel.background": "#111111",
+
+            // Side Bars
+            "sideBar.background": "#111111",
+            "sideBar.border": "#111111",
+            "sideBar.foreground": "#e2e2e2",
+            "sideBarSectionHeader.background": "#222222",
+            "sideBarSectionHeader.foreground": "#e2e2e2",
+            "list.activeSelectionForeground": "#E6C283",
+            "list.activeSelectionBackground": "#111111",
+            "list.inactiveSelectionForeground": "#E6C283",
+            "list.inactiveSelectionBackground": "#111111",
+
+            // Title Bar
+            "titleBar.activeBackground": "#111111",
+            "titleBar.inactiveBackground": "#111111",
+            "titleBar.border": "#111111",
+            "titleBar.activeForeground": "#FFFFFF",
+            "titleBar.inactiveForeground": "#FFFFFF",
+
+            // Documentation Background
+            "editorHoverWidget.background": "#111111",
         }
     },
     "editor.tokenColorCustomizations": {
-        "[Kanagawa]": {
+        "[Kanagawa Black]": {
             "textMateRules": [
                 {
                     "name": "Constants and enums",
