@@ -54,11 +54,11 @@ TODO:
     "hyprland/workspaces": {
         "format": "{icon}",
         "format-icons": {
-        "urgent": "󱍥",
-        "active": "", // focused workspace on current monitor
-        "visible": "", // focused workspace on other monitors
-        "default": "", //has content but not focused
-        "empty": "" // persistent (created by this plugin)
+        "urgent": "",
+        "active": "", // focused workspace on current monitor
+        "visible": "", // focused workspace on other monitors
+        "default": "", //has content but not focused
+        "empty": "" // persistent (created by this plugin)
         },
         "all-outputs": false // recommended
     },

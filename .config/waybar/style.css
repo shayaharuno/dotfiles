@@ -22,8 +22,8 @@ window#waybar {
 #workspaces button {
     all:unset;
     padding-bottom: 0;
-    padding-left: 3;
-    padding-right: 6;
+    padding-left: 4;
+    padding-right: 8;
     color: @C_TEXT_GRAY;
 }
 
