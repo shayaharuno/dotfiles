@@ -1,6 +1,6 @@
 @define-color C_TEXT #E6C384;
 @define-color C_TEXT_GRAY #FFFFFF;
-@define-color C_PANEL #111111;
+@define-color C_PANEL #000000;
 @define-color C_PANEL_BACKUP #1A1B25;
 @define-color C_URGENT #E46876;
 
@@ -12,7 +12,7 @@
     padding-bottom: 0px;
     padding-left: 0px;
     padding-right: 0px;
-    border-radius: 0px;
+    border-radius: 1px;
 }
 
 window#waybar {
@@ -22,8 +22,8 @@ window#waybar {
 #workspaces button {
     all:unset;
     padding-bottom: 0;
-    padding-left: 4;
-    padding-right: 8;
+    padding-left: 3;
+    padding-right: 6;
     color: @C_TEXT_GRAY;
 }
 

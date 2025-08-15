@@ -131,7 +131,7 @@ SetEditor=false
 ToolBarsMovable=Enabled
 
 [UiSettings]
-ColorScheme=MonoCode Panther Yellow
+ColorScheme=Krita darker
 
 [filetree]
 editShade=183,220,246

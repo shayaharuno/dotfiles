@@ -1,15 +1,20 @@
+background-color = #000000EE
+selection-color = #ccccccbb
+text-color = #cccccc66
+
 horizontal = false
+
+
 
 font = "Adwaita"
 font-size = 13
-text-color = #61656D
 
 # prompt-color = #c1c1c1
 # prompt-background = #11111111
 # prompt-background-padding = 0
 # prompt-background-corner-radius = 0
 
-input-color = #61656D
+input-color = #ccccccbb
 
 # default-result-color = #c1c1c1
 # default-result-background = #00000000
@@ -22,7 +27,6 @@ input-color = #61656D
 # alternate-result-background-corner-radius = 0
 
 # Selection text
-selection-color = #c1c1c1
 selection-background = #00000000
 selection-background-padding = 0
 selection-background-corner-radius = 0
@@ -50,12 +54,11 @@ min-input-width = 64
 
 width = 15%
 height = 23%
-background-color = #111111DD
 outline-width = 0
 outline-color = #61656D33
 border-width = 0
 border-color = #F92672
-corner-radius = 6
+corner-radius = 12
 
 padding-top = 8
 padding-bottom = 8
