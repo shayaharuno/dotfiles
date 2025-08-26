@@ -12,8 +12,6 @@
 ## Screenshots
 <p align="center">
   <img src=".misc/.fetch.png" />
-  <img src=".misc/.layout.png" />
-  <img src=".misc/.code.png" />
 </p>
 
 

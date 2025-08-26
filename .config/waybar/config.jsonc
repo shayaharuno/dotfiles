@@ -3,32 +3,38 @@ TODO:
 1. Battery icon only when not plugged in
 */
 
+
+
 {
-    "layer": "bottom",
-    "position": "bottom",
+    "layer": "top",
+    "position": "top",
     "mode": "dock",
     "exclusive": true,
     "passthrough": false,
-    "gtk-layer-shell": true,
+    "gtk-layer-shell": false,
     "reload_style_on_change": true,
     "height": 0,
+    "margin-bottom" : 0,
+    "margin-left" : 0,
+    "margin-right" : 0,
     "modules-left": [
         "custom/tofi",
-        "clock",
+        "clock"
         //"custom/weather",
-        "tray"
+        //"tray"
         //"hyprland/workspaces"
     ],
     "modules-center": ["hyprland/workspaces"], //"hyprland/window"
     "modules-right": [
         "mpris",
-        "hyprland/language",
+        "custom/hyprpicker",
         "bluetooth",
-        "network",
-        "memory",
-        "cpu",
-        "battery",
-        "backlight",
+        "hyprland/language",
+        //"network",
+        //"memory",
+        //"cpu",
+        //"battery",
+        //"backlight",
         "pulseaudio",
         "pulseaudio#microphone"
     ],
@@ -47,20 +53,27 @@ TODO:
         "tooltip": false,
         //"on-click-right": "nwg-drawer",
         //"on-click": "wofi --show run",
-        "on-click": "tofi-drun -c ~/.config/tofi/configV --drun-launch=true",
+        "on-click": "pkill tofi-drun || tofi-drun -c ~/.config/tofi/configV --drun-launch=true",
         //"on-click-right": "pkill -9 tofi-drun"
     },
 
     "hyprland/workspaces": {
         "format": "{icon}",
         "format-icons": {
-        "urgent": "",
-        "active": "", // focused workspace on current monitor
-        "visible": "", // focused workspace on other monitors
-        "default": "", //has content but not focused
-        "empty": "" // persistent (created by this plugin)
+        "urgent": "󱇎",
+        "active": "󰜋", // focused workspace on current monitor
+        "visible": "󱓝", // focused workspace on other monitors
+        "default": "󱓝", //has content but not focused
+        "empty": "󰜌" // persistent (created by this plugin)
         },
         "all-outputs": false // recommended
+    },
+
+    "custom/hyprpicker": {
+        "format": " ",
+        "on-click": "hyprpicker | wl-copy",
+        "tooltip": true,
+        "tooltip-format": "Hyprpicker",
     },
 
     "custom/weather": {

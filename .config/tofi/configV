@@ -1,4 +1,4 @@
-background-color = #000000EE
+background-color = #000000DB
 selection-color = #ccccccbb
 text-color = #cccccc66
 
@@ -6,8 +6,8 @@ horizontal = false
 
 
 
-font = "Adwaita"
-font-size = 13
+font = "JetBrainsMono Nerd Font"
+font-size = 14
 
 # prompt-color = #c1c1c1
 # prompt-background = #11111111
@@ -48,16 +48,16 @@ prompt-text = ""
 prompt-padding = 18
 
 num-results = 0
-result-spacing = 6
+result-spacing = 3
 min-input-width = 64
 
 
 width = 15%
 height = 23%
 outline-width = 0
-outline-color = #61656D33
-border-width = 0
-border-color = #F92672
+outline-color = #61656Dbb
+border-width = 1
+border-color = #61656DBB
 corner-radius = 12
 
 padding-top = 8
@@ -74,7 +74,7 @@ scale = true
 anchor = bottom
 
 margin-top = 0
-margin-bottom = 32
+margin-bottom = 8
 margin-left = 0
 margin-right = 0
 

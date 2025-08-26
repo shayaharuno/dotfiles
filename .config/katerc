@@ -42,7 +42,7 @@ Tab Middle Click Close Document=true
 Tabbar Tab Limit=0
 
 [KDE]
-widgetStyle=qt6ct-style
+widgetStyle=hyprqt6engine
 
 [KTextEditor Renderer]
 Animate Bracket Matching=false
@@ -126,12 +126,13 @@ RunPrefix=
 SetEditor=false
 
 [MainWindow]
+1920x1080 screen: Window-Maximized=true
 2 screens: Window-Maximized=true
 3 screens: Window-Maximized=true
 ToolBarsMovable=Enabled
 
 [UiSettings]
-ColorScheme=Krita darker
+ColorScheme=Kanagawa Wave
 
 [filetree]
 editShade=183,220,246

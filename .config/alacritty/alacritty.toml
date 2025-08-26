@@ -1,68 +1,75 @@
 [general]
 live_config_reload = true
 
+
 [window]
 decorations = "None"
 dynamic_padding = true
 dynamic_title = false
-opacity = 0.7
+opacity = 0.5
 title = "Alacritty"
+
+  [window.class]
+  general = "Alacritty"
+  instance = "Alacritty"
+
+  [window.padding]
+  x = 24
+  y = 6
 
 [colors]
 draw_bold_text_with_bright_colors = false
 
-[colors.primary]
-background = '#1D1D1B'
-foreground = '#dcd7ba'
+  [colors.primary]
+  background = "#1A1B25"
+  foreground = "#cccccc"
 
-[colors.normal]
-black   = '#090618'
-red     = '#c34043'
-green   = '#76946a'
-yellow  = '#c0a36e'
-blue    = '#7e9cd8'
-magenta = '#957fb8'
-cyan    = '#6a9589'
-white   = '#c8c093'
+  [colors.normal]
+  black = "#011627"
+  red = "#ef5350"
+  green = "#22da6e"
+  yellow = "#c5e478"
+  blue = "#82aaff"
+  magenta = "#c792ea"
+  cyan = "#21c7a8"
+  white = "#ffffff"
 
-[colors.bright]
-black   = '#727169'
-red     = '#e82424'
-green   = '#98bb6c'
-yellow  = '#e6c384'
-blue    = '#7fb4ca'
-magenta = '#938aa9'
-cyan    = '#7aa89f'
-white   = '#dcd7ba'
+  [colors.bright]
+  black = "#575656"
+  red = "#ef5350"
+  green = "#22da6e"
+  yellow = "#ffeb95"
+  blue = "#82aaff"
+  magenta = "#c792ea"
+  cyan = "#7fdbca"
+  white = "#ffffff"
 
-[colors.selection]
-background = '#2d4f67'
-foreground = '#c8c093'
 
-[[colors.indexed_colors]]
-index = 16
-color = '#ffa066'
+  [colors.selection]
+  background = "#2d4f67"
+  foreground = "#c8c093"
 
-[[colors.indexed_colors]]
-index = 17
-color = '#ff5d62'
+  [[colors.indexed_colors]]
+  index = 16
+  color = "#ffa066"
 
+  [[colors.indexed_colors]]
+  index = 17
+  color = "#ff5d62"
 
 [env]
-#TERM = "alacritty:RGB"
 TERM = "xterm-256color"
 
 [font]
-size = 14.0
+size = 14
 
-[font.normal]
-#family = "MesloLGS NF"
-family = "JetBrainsMono Nerd Font"
-style = "Medium"
+  [font.normal]
+  family = "JetBrainsMono Nerd Font"
+  style = "Medium"
 
-[font.offset]
-x = 0
-y = 0
+  [font.offset]
+  x = 0
+  y = 0
 
 [[keyboard.bindings]]
 action = "Paste"
@@ -149,13 +156,4 @@ mode = "~Alt"
 mods = "Shift"
 
 [scrolling]
-history = 5000
-
-[window.class]
-general = "Alacritty"
-instance = "Alacritty"
-
-[window.padding]
-x = 24
-y = 6
-
+history = 5_000
