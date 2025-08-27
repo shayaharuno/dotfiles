@@ -11,7 +11,6 @@
     "window.zoomLevel": 1,
     "workbench.activityBar.location": "top",
     "workbench.iconTheme": "file-icons",
-    "workbench.preferredDarkColorTheme": "Kanagawa",
     "debug.console.fontFamily": "JetBrainsMono Nerd Font, monospace",
     "debug.console.fontSize": 15,
     "editor.fontFamily": "JetBrainsMono Nerd Font, monospace",
@@ -33,7 +32,6 @@
     "explorer.confirmDelete": false,
     "explorer.confirmDragAndDrop": false,
     "extensions.ignoreRecommendations": true,
-    "window.commandCenter": false,
     "window.customTitleBarVisibility": "windowed",
     "telemetry.telemetryLevel": "off",
     "editor.cursorBlinking": "blink",
@@ -227,5 +225,7 @@
     "editor.accessibilitySupport": "off",
     "editor.tabSize": 4,
     "editor.mouseWheelScrollSensitivity": 2,
+    "window.commandCenter": false,
+    "workbench.preferredDarkColorTheme": "Kanagawa Wave",
 
 }
