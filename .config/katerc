@@ -42,7 +42,7 @@ Tab Middle Click Close Document=true
 Tabbar Tab Limit=0
 
 [KDE]
-widgetStyle=hyprqt6engine
+widgetStyle=Breeze
 
 [KTextEditor Renderer]
 Animate Bracket Matching=false
@@ -132,7 +132,7 @@ SetEditor=false
 ToolBarsMovable=Enabled
 
 [UiSettings]
-ColorScheme=Kanagawa Wave
+ColorScheme=Breeze Dark
 
 [filetree]
 editShade=183,220,246

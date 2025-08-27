@@ -1,4 +1,4 @@
-@define-color C_TEXT #22DA6E;
+@define-color C_TEXT #3DAEE9;
 @define-color C_TEXT_GRAY #FFFFFF;
 @define-color C_PANEL #000000;
 @define-color C_PANEL_BACKUP #1A1B25;
@@ -17,7 +17,7 @@
 }
 
 window#waybar {
-    background: rgba(43, 48, 59, 0.5);
+    background: rgba(18, 21, 24, 0.7);
 }
 
 #workspaces button {
@@ -46,12 +46,12 @@ window#waybar {
 
 tooltip {
     border-radius: 8px;
-    background: rgba(43, 48, 59, 0.8);
+    background: rgba(45, 47, 50, 0.8);
 }
 
 tooltip label {
     color: @C_TEXT_GRAY;
-    font-size: 14;
+    font-size: 12;
     margin: 8 8 8 8;
 }
 
