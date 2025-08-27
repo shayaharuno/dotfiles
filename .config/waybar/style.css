@@ -56,9 +56,9 @@ tooltip label {
 }
 
 #custom-tofi {
-    font-size: 16;
+    font-size: 18;
     color: @C_TEXT_GRAY;
-    padding-left: 22;
+    padding-left: 16;
     padding-right: 12;
 }
 
@@ -102,8 +102,8 @@ tooltip label {
 #language {
     color: @C_TEXT_GRAY;
     font-weight: 900;
-    font-size: 15;
-    padding: 0 8 0 8;
+    font-size: 18;
+    padding: 0 8 1 8;
 }
 
 #bluetooth {
@@ -130,17 +130,28 @@ tooltip label {
 #mpris {
     color: @C_TEXT_GRAY;
     font-size: 12;
-    padding: 0 12 0 24;
+    padding: 0 8 0 8;
 }
+
+#window {
+    color: @C_TEXT_GRAY;
+    font-size: 52;
+    padding: 0 8 0 8;
+}
+
+#window text {
+    font-size: 52;
+}
+
 
 #custom-weather {
     color: @C_TEXT_GRAY;
-    padding: 0 8 0 8;
+    padding: 0 4 0 8;
 }
 
 #custom-hyprpicker {
     font-size: 15;
-    padding: 0 8 0 8;
+    padding: 0 4 0 8;
 }
 
 

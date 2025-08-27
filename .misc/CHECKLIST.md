@@ -33,7 +33,12 @@ yay -Y --gendb && yay
 
 * Install required and essential packages
 ```sh
-yay -S --needed fish stow cmake gcc cpio meson egl-wayland pipewire wireplumber wl-clipboard wl-paste tar dunst hypridle hyprlock hyprpicker swww xdg-desktop-portal-hyprland hyprshot qt5ct-kde qt6ct-kde nwg-look hyprpolkitagent tofi waybar ttf-jetbrains-mono-nerd ttf-mplus-nerd ttf-sarasa-gothic
+yay -S --needed fish librewolf-bin stow egl-wayland pipewire wireplumber ranger wl-clipboard tar
+```
+
+* Install fonts
+```sh
+yay -S ttf-jetbrains-mono-nerd ttf-mplus-nerd tf-noto-emoji-monochrome ttf-sarasa-gothic
 ```
 
 * Set fish as default shell (reboot required)
@@ -57,14 +62,18 @@ git clone https://github.com/shayaharuno/dotfiles.git && cd dotfiles && stow .
 
 * Install additional packages 
 ```sh
-yay -S --needed kcalc librewolf-bin blender krita godot code steam telegram-desktop qbittorrent obs-studio vesktop-bin ark
+yay -S --needed aseprite-bin blender krita godot blender vscodium-bin ncspot steam keepassxc telegram-desktop qbittorrent obs-studio equibop neovim ark dolphin
 ```
 
 #### Hyprland
+* Install essential packages
+```sh
+yay -S --needed hyprland xdg-desktop-portal-hyprland polkit-kde-agent qt5-wayland qt6-wayland dunst qt5ct-kde qt6ct-kde nwg-look grimblast-git swww
+```
 
 * Add autostart parameters to `~/.config/hypr/hyprland.conf` (skip if using dotfiles)
 ```
-exec-once = systemctl --user start hyprpolkitagent
+exec-once=/usr/lib/polkit-kde-authentication-agent-1
 exec-once=/usr/bin/dunst
 exec-once=hyprpm reload -n
 ```
